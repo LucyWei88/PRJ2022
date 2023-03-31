@@ -1,0 +1,2613 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/163>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/163/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/61> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/83/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "no" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/83> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/35/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/133/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/49> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/71>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/177/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/177> ;
+        mno:hasSyllabic    "single" .
+
+tss:cockles_and_mussels_21938
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/103/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/108/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "crying" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/108> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/41>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/77/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/134/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/134> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/175>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/175/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/65> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/47/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/103/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "streets" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/103> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/145>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/145/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/54> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/160/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Malone" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/160> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/37/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "through" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/37> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/200>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/200/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/74> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/43> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/53>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/89/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/187>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/187/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/70> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/188/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/188> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/157/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/157> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/157>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/157/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/58> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/29/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/90/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/48> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/65>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/199>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/199/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/74> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/48/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/48> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/35>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/30/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/169>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/63> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/7/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/43/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "crying" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/43> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/51> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/109/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/170>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/170/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/64> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/47>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "where" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/5> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/52> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/12/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/110/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/28/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sweet" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/28> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/84/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/206>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/76> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/120/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/120> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/182>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/67> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/59>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/152>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/152/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/57> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/24/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/29>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/80/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "monger" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/80> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/122/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/11/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "so" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/11> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/148/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "could" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/148> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/60>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/194>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/72> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/174/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Cockels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/174> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/30>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/66/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/105/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "narrow" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/105> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/164>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/164/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/61> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/36/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/39/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "broad and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/39> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/77/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "She" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/77> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/2/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/131/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Cockels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/131> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/134/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/50> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/72>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/65/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "crying" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/65> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/34/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pushin' her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/34> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/104/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/42>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/78/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/91/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Father" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/91> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/159/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Molly" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/159> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/176>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/176/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/65> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/8/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "girls" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/8> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/48/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/185/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/185> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/146>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/146/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/54> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/201>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/74> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/43> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/88/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "so" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/88> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/54>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/142/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "She" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/142> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/111/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Mussels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/111> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/188>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/188/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/70> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/45/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/45> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/158>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/158/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/59> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/91/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/48> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/40/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "narrow" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/40> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/66>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/196/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Cockels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/196> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/36>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/99/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "both" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/99> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/8/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/68/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Mussels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/68> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/2/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Dublin's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/2> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/122/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/122> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/94/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "before" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/94> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/25/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/25> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/171>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/171/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/64> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/48>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/43/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/52> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/111/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/41> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/176/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Mussels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/176> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/145/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fever" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/145> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/183>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/68> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/55/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/79/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "afish" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/79> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/133/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Mussels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/133> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/171/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/171> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/102/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "through" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/102> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/153>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/153/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/57> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/25/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/36/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "barrow" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/36> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/123/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/61>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/199/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/199> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/195>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/195/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/73> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/31>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/67/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/165>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/62> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/37/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/156/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "end" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/156> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/3/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/135/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/50> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/73>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/113/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/113> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/105/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/43>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/79/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/177>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/177/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/66> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/147>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/147/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/55> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/80/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/202>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/75> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/43> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/55>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/189>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/70> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/159>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/159/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/59> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/92/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/48> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/27/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "on" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/27> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/190>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/71> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/67>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/160>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/160/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/59> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/37>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/22/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "I" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/22> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/130/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/49> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/147/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "noone" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/147> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/100/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/173/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "crying" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/173> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/172>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/172/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/64> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/104/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "broad and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/104> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/49>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/44/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/142/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/53> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/130/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "crying" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/130> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/112/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/42> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "She was" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/50>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/184>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/68> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/56/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/158/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sweet" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/158> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/7/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/154>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/154/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/57> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/26/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/153/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "that" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/153> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/62>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/98/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/87/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/87> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/196>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/196/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/73> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/56/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/56> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/32>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/68/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/110/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/110> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/166>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/62> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/38/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/44/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Cockels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/44> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/82/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sure'twas" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/82> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/4/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/50> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/74>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/70/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/70> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/44>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/164/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ghost" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/164> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/178>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/178/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/66> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/148>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/148/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/55> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "In" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/67/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/67> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/121/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/121> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/81/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/203>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/75> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/44> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/93/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Mother" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/93> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/56>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/24/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "set" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/24> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/149/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "save" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/149> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/187/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/187> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/93/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/175/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/175> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/191>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/71> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/144/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/144> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/68>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/161>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/60> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/78/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "was" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/78> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/170/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wheels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/170> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/38>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/47/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/47> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/101/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "barrows" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/101> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/131/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/49> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/101/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/198/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Mussels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/198> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "are" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/9> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/30/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Malone" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/30> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/173>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/173/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/65> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/45/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/143/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/53> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/155/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/155> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/4/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "city" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/4> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/113/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/51>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/58/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/58> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/87/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/112/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/112> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/150/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/150> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/185>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/185/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/69> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/57/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/84/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wonder" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/84> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/155>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/155/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/58> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/27/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/178/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/178> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/47> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/109/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Cockels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/109> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/63>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/99/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/197>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/197/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/73> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/135/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/135> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/33>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/69/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/167>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/62> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/69/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/69> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/39/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/38/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "streets" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/38> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/51> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/75>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/70/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/40> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/45>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/40/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/90/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/90> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/179>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/66> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/200/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/200> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/149>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/149/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/56> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/146/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/146> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/82/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/204>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/75> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/44> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/180>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/67> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/172/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "barrow" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/172> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/57>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/150>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/150/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/56> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/22/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/120/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/45> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/94/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/192>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/72> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/69>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/162>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/60> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/195/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "crying" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/195> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/39>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/34/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/132/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/49> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/70>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/98/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "they" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/98> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/152/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "so" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/152> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/29/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Molly" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/29> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/102/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/40>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/55/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/55> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/174>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/174/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/65> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/46/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/144/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/54> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/81/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/81> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/12/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pretty" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/12> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/42> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/52>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/88/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/186>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/186/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/69> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/58/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/163/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/163> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/132/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/132> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/156>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/156/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/58> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/28/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/66/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Cockels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/66> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/47> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/35/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wheel" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/35> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/64>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/92/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/92> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/198>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/198/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/73> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/23/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "first" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/23> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/34>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/168>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/63> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/186/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/186> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/51> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/76>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/89/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "was" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/89> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/143/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "diedfrom" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/143> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/108/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/46>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/11/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/46/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Mussels" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/46> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/100/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pushedtheir" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/100> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/83/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/205>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/76> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/181>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/67> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/197/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/197> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/58>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/151>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/56> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/part/4> .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/23/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/154/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "was" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/154> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/3/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fair" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/3> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/121/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/45> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/123/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aliveo" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/123> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/57/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "alive" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/57> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/193>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/72> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/26/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "eyes" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/26> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/event/65/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cockles_and_mussels_21938/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .

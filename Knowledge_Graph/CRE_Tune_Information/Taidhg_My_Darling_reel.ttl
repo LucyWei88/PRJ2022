@@ -1,0 +1,19 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:taidhg_my_darling_reel
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "0" , "1" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "4" ;
+        tu:has_a_metre_beats        "4" ;
+        tu:has_a_printed_tune_book  "CRE2.150i (A Thaidhg a R\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00ban)" ;
+        tu:has_a_tempo              "90.00" ;
+        tu:has_a_title              "Taidhg My Darling (reel)" ;
+        tu:has_notes                "If |dd/^c/dd| in mm 9 and 13 doesn't suit, try" .

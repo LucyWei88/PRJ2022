@@ -1,0 +1,3320 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/20/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "at" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/20> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/161/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/161> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/82/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/210>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/210/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/2/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/125/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "1. Why" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/174/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "but" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/174> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/52/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/138/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "bower" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/138> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/197>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/197/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/22/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/78/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "young" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/78> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/48/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "glim" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/48> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/167>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/167/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/94/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/222>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/222/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/10/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "this" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/10> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/137/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/151/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "come" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/151> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/64/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/107/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/56/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "hair," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/56> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/34/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/128/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "first" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/128> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/7/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "chain" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/228/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "dean." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/228> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/179>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/179/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/38/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dry" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/38> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/118/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "They" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/118> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/149>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/149/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/76/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/204>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/204/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/28/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "nin" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/28> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/119/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/180>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/180/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/211/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "Jock" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/211> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/46/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/85/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/85> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/9> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/16/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "deckt" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/16> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/157/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "our" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/157> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/150>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/150/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/16/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/131/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "his" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/131> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/101/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/101> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/120/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/183/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "she" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/183> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/41/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/41> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/88/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/216>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/216/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/8/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/192>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/192/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/87/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ton," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/87> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/213/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/213> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/58/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/18/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "fu" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/18> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/159/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/159> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/162>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/162/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/28/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/185/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lout" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/185> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/160/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ba" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/160> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/132/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/228>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/228/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/65/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "priest" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/65> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/102/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/137/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/137> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/174>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/174/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/47/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "bind" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/47> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/144/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/219/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "Ha" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/219> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/71/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/139/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "la" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/139> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/109/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "were" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/109> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/220/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "Ha" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/220> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/41/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/55/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "pale." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/55> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/49/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/49> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/186>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/186/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/140/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "fu" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/140> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/11/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/227/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dean." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/227> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/192/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "der" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/192> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/37/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "weep" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/37> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/156>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/156/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/50/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/50> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/117/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "An" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/117> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/83/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/211>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/211/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/3/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/126/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/209/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Jock" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/209> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/96/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "pal" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/96> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/222/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "zel" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/222> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/53/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/27/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "nae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/27> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/198>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/198/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/84/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "aged" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/84> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/210/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Jock" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/210> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/23/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/194/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "tears" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/194> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/168>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/168/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/100/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "frey" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/100> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/95/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/223>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/223/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/200/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/200> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/138/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/146/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "haa," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/146> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/65/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/86/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "son" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/86> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/108/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/17/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/17> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/35/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/102/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/102> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/148/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "his" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/148> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/64/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "met" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/64> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/77/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/205>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/205/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/136/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "peace" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/136> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/181>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/181/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/47/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/46/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "cheeks" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/46> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/151>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/151/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/126/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/126> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/17/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/218/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Ha" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/218> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/121/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/66/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/66> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/36/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/36> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/89/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/217>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/217/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/108/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/108> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/93/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/93> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/193>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/193/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/208/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "wi" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/208> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/59/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/163>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/226/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dean." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/226> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/29/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/90/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/133/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/116/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "His" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/116> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/60/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/229>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/95/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Lord" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/95> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/221/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "zel" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/221> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/103/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/26/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/26> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/30/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/175>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/175/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/193/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tears" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/193> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/145>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/145/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/73/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "bride" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/73> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/72/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/200>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/200/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/145/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "aa," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/145> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/115/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/42/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/171/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "Queen," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/171> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/187>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/187/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/165/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ttle" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/165> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/12/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/157>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/157/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/75/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/75> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/201/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "faa" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/201> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/147/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/147> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/84/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/212>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/212/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/4/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/127/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/63/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Frank" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/63> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/199/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "doun" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/199> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/54/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/173/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "but" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/173> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/199>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/199/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/24/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/53/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "fair." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/53> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/125/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/125> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/169>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/169/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/4/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "4. The" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/4> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/96/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/225/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "dean." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/225> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/224>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/224/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/35/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "nor" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/35> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/139/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/107/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ley" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/107> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/66/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/207/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/207> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/109/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/170>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/170/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/36/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/127/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/127> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/140/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/6/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "let" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/6> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/179/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "aye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/179> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/154/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "la" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/154> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/115/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "An" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/115> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/110/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/94/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/94> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/206>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/206/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/78/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/180/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "owre" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/180> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/25/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "la" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/25> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/182>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/182/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/48/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/152>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/152/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/15/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "gowd" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/15> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/156/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/156> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/18/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/72/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "hound," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/72> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/122/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/169/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "seen," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/169> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/182/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "she" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/182> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/218>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/218/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/194>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/194/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/164/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/164> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/134/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/134> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/164>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/164/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/91/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/74/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/74> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/44/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "per" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/44> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/134/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/61/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/216/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/216> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/104/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/31/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/176>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/176/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/188/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "bor" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/188> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/124/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "is" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/124> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/146>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/146/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/73/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/34/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/34> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/201>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/201/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/116/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/33>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/43/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/206/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/206> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/54/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tide?" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/54> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/24/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "mor" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/24> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/188>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/188/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/13/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/81/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "wait" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/81> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "weep" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/5> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/178/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "aye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/178> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/158>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/158/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/153/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "ride" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/153> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/191/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/191> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/85/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/213>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/213/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/128/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/55/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/168/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "seen." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/168> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/25/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/83/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ring" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/83> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/14/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "will" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/14> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/155/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ly" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/155> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/97/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/225>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/225/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/181/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "she" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/181> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/67/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/61/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "The" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/61> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/171>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/171/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/133/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "maist" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/133> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/37/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/141/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/43/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "tae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/43> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/111/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/89/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "bride," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/89> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/215/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/215> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/79/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/207>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/207/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/183>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/183/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/135/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "bride" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/135> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/105/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "night" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/105> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/49/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/187/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "lout" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/187> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/162/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "wis" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/162> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/153>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/153/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/45/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "by" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/45> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/19/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/80/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/123/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/217/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Ha" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/217> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/50/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/219>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/219/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/113/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "fair." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/113> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/195>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/195/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/79/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Er" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/79> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/205/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/205> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/92/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "nor" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/92> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/20/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/189/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/189> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/23/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "sall" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/23> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/165>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/165/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/92/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/69/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/69> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/220>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/220/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/190/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/190> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/135/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/62/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/105/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/142/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/142> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/32/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/177>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/177/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/82/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "est" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/82> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/52/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "meret" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/52> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/13/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "by" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/13> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/147>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/147/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/224/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "zel" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/224> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/59/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "young" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/59> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/74/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/202>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/202/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/117/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/144/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "haa," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/144> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/34>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/44/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/60/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "nor" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/60> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/196/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/196> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/189>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/189/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/132/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/132> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/170/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "keen," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/170> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/14/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/42/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "those" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/42> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/159>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/159/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/86/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/122/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "searcht" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/122> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/214>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/214/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/6/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/88/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "hawk," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/88> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/129/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/214/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/214> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/190>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/190/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/198/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "doun" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/198> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/62/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/62> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/32/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "tide," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/32> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/56/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/104/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "fresh" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/104> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/160>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/160/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/26/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/204/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "wa," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/204> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/130/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/98/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/226>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/226/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/3/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "3. A" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/3> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/100/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/176/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "She's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/176> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/112/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dale." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/112> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/68/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/106/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "his" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/106> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/91/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/91> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/172>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/22/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "greif" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/22> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/38/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/142/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/68/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "tled" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/68> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/12/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "was" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/12> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/112/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/208>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/208/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/141/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "them" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/141> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/184>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/184/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/51/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "your" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/51> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/154>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/154/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/81/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/97/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "dame" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/97> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/223/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "zel" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/223> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/124/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/58/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "A'll" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/58> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/71/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Chief" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/71> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/51/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/143/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dy," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/143> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/196>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/196/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/195/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "tears" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/195> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/21/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/166>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/166/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+tss:jock_o_hazeldean_30305
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/99/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/99> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/93/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/221>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/221/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/136/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/121/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "you" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/121> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/63/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/197/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "doun" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/197> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/106/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/31/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "lack," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/31> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/167/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "nae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/167> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/103/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Lang" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/103> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/178>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/178/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/77/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "groom" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/77> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/203/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "faa" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/203> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/149/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "sall" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/149> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/123/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "shall" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/123> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/148>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/148/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/2/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "2. Now" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/2> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/203>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/203/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/75/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/175/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "but" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/175> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/150/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/150> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "why" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/111/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "bride." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/111> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/118/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/45/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/90/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/90> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/21/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tide," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/21> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/15/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/67/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "is" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/67> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/80/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "man" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/80> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/177/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/177> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/11/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/11> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/152/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sword" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/152> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/87/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/215>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/215/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/7/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/191>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/191/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/129/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "fore" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/129> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/161>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/161/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/8/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "kirk" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/8> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/27/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/39/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "braid" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/39> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/130/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/130> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/131/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/99/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/227>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/227/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/101/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/70/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/70> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/40/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "ta" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/40> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/69/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/212/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "Jock" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/212> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/29>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/173>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/173/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/158/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "dy" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/158> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/39/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/119/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/119> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/143/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/98/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "shall" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/98> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/184/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/184> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/29/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dy," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/29> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/70/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/120/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "step" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/120> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/113/lyrics/3> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/30>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/40/lyrics/4> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/209>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/209/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/30/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dune," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/30> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/166/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "est" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/166> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/19/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "ye" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/19> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/part/4> .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/185>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/185/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/110/lyrics/4>
+        mno:hasLineNumber  "4" ;
+        mno:hasLyricText   "there." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/110> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/10/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/76/lyrics/3>
+        mno:hasLineNumber  "3" ;
+        mno:hasLyricText   "nor" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/76> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/202/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "faa" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/202> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/155>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/155/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/186/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "lout" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/jock_o_hazeldean_30305/event/186> ;
+        mno:hasSyllabic    "single" .

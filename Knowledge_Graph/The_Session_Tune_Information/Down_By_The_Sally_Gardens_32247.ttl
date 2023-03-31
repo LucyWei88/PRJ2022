@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:down_by_the_sally_gardens_32247
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "0" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "4" ;
+        tu:has_a_metre_beats      "4" ;
+        tu:has_a_rhythm           "reel" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Down By The Sally Gardens 32247" ;
+        tu:has_a_transcription    "G_orgeG-Jon_s" ;
+        tu:has_lyrics             "2. In a field down by the river\nMy love and I did stand\nAnd upon my leaning shoulder\nShe laid her snowwhite hand\nShe bid me take life easy\nAs the grass grows on the weirs\nBut I was young and foolish\nAnd now I am full of tears\n\n\n\n3. It was down by the Sally gardens\nMy love and I did meet\nShe crossed the Sally gardens\nWith little snowwhite feet\nShe bid me to take life easy\nAs the leaves grow on the tree\nBut I was young and foolish\nAnd her I did not agree" ;
+        tu:has_notes              "tune id: 1314; setting id: 32247" .

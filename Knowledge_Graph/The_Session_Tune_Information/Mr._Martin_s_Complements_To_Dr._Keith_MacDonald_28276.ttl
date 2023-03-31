@@ -1,0 +1,20 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:mr._martin_s_complements_to_dr._keith_macdonald_28276
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "-1" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "4" ;
+        tu:has_a_metre_beats      "4" ;
+        tu:has_a_rhythm           "strathspey" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Mr. Martin's Complements To Dr. Keith MacDonald 28276" ;
+        tu:has_a_transcription    "Greetings" ;
+        tu:has_notes              "tune id: 15210; setting id: 28276" .

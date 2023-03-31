@@ -1,0 +1,21 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:late_home_at_night_skin_the_peeler
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "1" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "8" ;
+        tu:has_a_metre_beats        "9" ;
+        tu:has_a_printed_tune_book  "CRE1.065 (Oro a Thaidhg a Ghra)" ;
+        tu:has_a_rhythm             "slip jig" ;
+        tu:has_a_source             "John Potts" ;
+        tu:has_a_tempo              "80.00" ;
+        tu:has_a_title              "Late Home at Night" ;
+        tu:has_notes                "Sounds a lot like my \"favorite\" slip jig \"The Butterfly\" ...\nGaelic name refers to a song sung to this tune." .

@@ -1,0 +1,1129 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+cre:coppers_and_brass
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/coppers_and_brass/part/4> .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/coppers_and_brass/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/coppers_and_brass/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .

@@ -1,0 +1,863 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance>
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/part/4> .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/dolly_&_the_gypsy_barn_dance/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .

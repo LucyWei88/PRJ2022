@@ -1,0 +1,991 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+cre:rip_the_calico_reel_tear_the_calico
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/91>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/15> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/53>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/8> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/79>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/13> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/103>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/17> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/116>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/19> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/part/4> .
+
+<http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/rip_the_calico_reel_tear_the_calico/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .

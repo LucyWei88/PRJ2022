@@ -1,0 +1,20 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:prayer_is_better_than_a_tunea
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "3" , "0" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "8" , "4" ;
+        tu:has_a_metre_beats        "6" , "4" ;
+        tu:has_a_printed_tune_book  "CRE5.002 (Is Fearr Paidir n\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00a1 Port)" ;
+        tu:has_a_source             "Padraig O'Keeffe MS" ;
+        tu:has_a_tempo              "80.00" ;
+        tu:has_a_title              "Prayer Is Better Than a Tune,A" ;
+        tu:has_notes                "This tune is basically \"Kilfenora #2\" (1) in the key of A (2) with the parts reversed. I've appended a D version with the parts in the usual order. (I'm trying to get musicians to call" .

@@ -1,0 +1,1847 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/179>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/158>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/237>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/216>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/43> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/30>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/187>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/166>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/145>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/224>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/44> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/203>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/195>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/174>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/153>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/232>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/45> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/46>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/211>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/182>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/161>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/219>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/43> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/33>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/190>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/169>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/148>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/227>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/44> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/41>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/206>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/41> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/198>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/177>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/156>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/235>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/214>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/185>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/164>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/222>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/44> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/36>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/201>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/193>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/172>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/151>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/230>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/45> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/44>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/209>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/180>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/159>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/238>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/217>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/43> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/31>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/188>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/167>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/146>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/225>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/44> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/39>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/204>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/196>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/175>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/154>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/233>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/45> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/212>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/183>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/162>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/220>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/43> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/34>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/191>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/170>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/149>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/228>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/45> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/42>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/207>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/41> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/199>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/40> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/178>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/157>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/236>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/215>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/186>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/165>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/223>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/44> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/37>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/202>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/194>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/173>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/152>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/231>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/45> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/45>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/210>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/181>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/160>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/218>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/43> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/32>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/189>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/168>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/147>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/226>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/44> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/40>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/205>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/41> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/197>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/176>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/155>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/234>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/46> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/213>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+cre:geese_in_the_bog_the_sonny_brogan_setting
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/184>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/163>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/221>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/43> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/35>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/200>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/192>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/171>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/150>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/229>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/45> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/43>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/event/208>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/41> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/geese_in_the_bog_the_sonny_brogan_setting/part/4> .

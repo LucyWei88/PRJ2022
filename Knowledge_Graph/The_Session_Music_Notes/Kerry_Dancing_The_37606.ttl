@@ -1,0 +1,2582 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/160/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/160> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/81/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/58/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "our" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/58> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/33/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "More," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/51/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/84/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/84> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/106/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "heart" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/106> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/15/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "danc" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/15> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/21/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/4/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/41/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "those" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/41> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/151>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/151/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+tss:kerry_dancing_the_37606
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/93/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/145/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "days" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/145> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/87/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "mid" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/87> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/63/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/121/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/18/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "leen" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/18> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/171/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "las!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/171> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/33/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/140/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "heart" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/140> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/44/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "lad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/44> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/38/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "some" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/38> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "days" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/5> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/163>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/163/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/64/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "soon." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/64> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/133/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/75/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/168/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ness" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/168> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/90/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/90> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/45/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/103/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/21/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/21> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/8/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "er" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/8> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/98/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Ah!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/98> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/15/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/175>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/175/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/100/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "The" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/100> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/67/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "\"Lads" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/67> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/145>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/145/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/87/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/151/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ing" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/151> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/93/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/93> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/49/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ness" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/49> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/24/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dance" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/24> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/115/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/57/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/50/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dy" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/50> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/27/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/157>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/157/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/148/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ker" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/148> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/123/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "hap" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/123> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/32/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tune" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/32> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/99/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/136/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/136> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/127/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/69/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/105/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pip" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/105> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/39/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/162/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "some" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/162> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/131/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/131> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/35/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Or" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/35> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/2/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Was" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/2> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/70/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/169>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/169/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/86/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "glen," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/86> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/61/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "took" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/61> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/108/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ed" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/108> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/55/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "las!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/55> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/40/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/139/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/19> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/159/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tune" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/159> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/10/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/109/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/170>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/170/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/140/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/82/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/52/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/110/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/142/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tears." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/142> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/111/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ing" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/111> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/22/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/7/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/66/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "when" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/66> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/152>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/152/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/94/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/10/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/10> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/114/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ring" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/114> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/92/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sum" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/92> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/122/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/64/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/139/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/139> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/23/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ring" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/23> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/34/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/165/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hours" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/165> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/69/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/69> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/164>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/164/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/95/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "gain!\"" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/95> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/122/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wild" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/122> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/76/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/134/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/104/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/46/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/16/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/176>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/176/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/125/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "py" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/125> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/72/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/72> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/176/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "soon." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/176> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/146>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/146/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/88/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/107/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "er's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/107> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/58/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/116/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/133/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/133> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/75/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/75> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/28/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/57/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "like" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/57> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/158>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/158/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/24> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/26/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/26> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/128/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/156/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/156> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/40/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/40> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/29/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Ei" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/29> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/71/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/113/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Made" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/113> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/41/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/9> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/11/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/81/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "es," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/81> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/171>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/171/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/12/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sweet" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/12> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/94/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "mer" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/94> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/141/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/83/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/116/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ing" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/116> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/111/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/53/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/167/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "glad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/167> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/23/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/6/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/124/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "deli" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/124> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/153>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/153/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/95/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/150/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "danc" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/150> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/123/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/65/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/17/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ing" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/17> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/35/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/74/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gan" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/74> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/43/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hours" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/43> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/165>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/165/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/147/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/147> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/89/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dle" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/89> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/135/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/77/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/173/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "our" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/173> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/77/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "your" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/77> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/47/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/105/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/46/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "than" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/46> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/17/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/130/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "think" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/130> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/97/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "And" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/97> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/28/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pip" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/28> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/147>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/147/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/89/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/117/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/59/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/158/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ers" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/158> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/80/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/80> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/29/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/102/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "mer" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/102> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/11/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ker" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/11> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/90/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/115/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "us" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/115> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/153/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/153> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/60/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/159>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/159/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/141/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "with" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/141> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/83/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Up" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/83> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/30/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/4> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/129/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/14/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "er" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/14> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/52/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "As" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/52> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/160>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/160/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/34/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/34> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/130/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/72/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/138/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Fills" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/138> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/42/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/60/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "youth," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/60> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/100/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/164/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "those" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/164> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/12/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/172>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/172/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/37/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/37> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/4/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "there" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/4> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/84/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/142/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/88/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/88> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/63/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/63> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/19/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/19> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/112/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/54/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/45/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/45> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/20/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "In" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/20> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/24/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/7/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/149/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ry" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/149> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/154>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/154/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/96/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/175/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "too" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/175> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/144/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/144> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/66/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/124/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/48/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Tha" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/48> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/36/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/99/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/99> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/170/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/170> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/101/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Ker" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/101> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/68/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/68> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/166>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/166/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/136/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/25/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/25> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/78/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/82/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "In" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/82> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/104/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ry" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/104> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/129/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/129> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/106/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/48/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/51/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Gone" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/51> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/18/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/155/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/155> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/148>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/148/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/54/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "he" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/54> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/118/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/2/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/127/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "glen" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/127> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/36/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/36> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/91/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/3/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/3> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/62/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "too" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/62> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/61/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/109/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tun" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/109> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/166/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/166> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/31/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/4> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/135/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dream" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/135> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/39/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Proud" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/39> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/110/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "lsugh" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/110> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/6/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ev" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/6> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/161>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/161/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/161/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/161> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/65/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "floor." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/65> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/73/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/131/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/91/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "down" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/91> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/101/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/43/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/13/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/173>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/173/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/143/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/85/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/146/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/146> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/121/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/121> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/55/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/113/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/172/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "like" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/172> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/103/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ry" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/103> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/25/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/8/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/96/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "night." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/96> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/71/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "lass" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/71> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/155>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/155/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/118/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "through" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/118> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/97/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/169/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Gone" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/169> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/125/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/67/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/53/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/53> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/37/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/157/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pip" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/157> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/126/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ght;" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/126> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/167>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/167/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/152/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/152> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/56/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "bold" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/56> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/79/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/137/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/107/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/49/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/76/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/76> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/19/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/80/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/50/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/149>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/149/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/112/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ter" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/112> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/137/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "it" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/137> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/79/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "plac" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/79> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/20/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/3/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/163/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/163> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/132/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "it," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/132> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/150>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/150/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/92/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/120/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "with" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/120> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/120/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/62/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/31/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ly" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/31> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/32/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/13/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ry" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/13> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/162>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/162/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/70/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "boys" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/70> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/117/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "long" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/117> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/59/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ly" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/59> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/132/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/74/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/174/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "youth," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/174> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/143/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/143> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/85/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/85> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/102/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/44/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/16/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "col" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/16> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/73/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "es" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/73> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/14/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/174>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/174/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/42/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "er" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/42> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/144/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/86/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/114/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/56/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/128/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/128> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/26/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/154/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ring" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/154> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/156>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/156/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/27/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "than" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/27> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/98/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/68/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/78/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gat" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/78> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/126/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/47/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "glad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/47> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/22/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/22> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/38/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/part/4> .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/168>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/168/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/30/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ers" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/30> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/138/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/134/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/134> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/event/108/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/kerry_dancing_the_37606/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .

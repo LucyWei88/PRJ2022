@@ -1,0 +1,903 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+cre:thady_casey_s_fancy_reel_the_burren
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/part/4> .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/thady_casey_s_fancy_reel_the_burren/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .

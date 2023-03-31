@@ -1,0 +1,957 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+cre:doctor_gilbert_reel_dispute_at_the_crossroads
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/126>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/16> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/part/4> .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/62>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/8> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/3> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/doctor_gilbert_reel_dispute_at_the_crossroads/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .

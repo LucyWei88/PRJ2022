@@ -1,0 +1,186 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/part/4> .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/part/4> .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/part/4> .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+tss:guns_of_the_magnificent_seven_the_12456
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/part/4> .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/guns_of_the_magnificent_seven_the_12456/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .

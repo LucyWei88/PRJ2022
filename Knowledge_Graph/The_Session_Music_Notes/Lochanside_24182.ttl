@@ -1,0 +1,3376 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/269>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/185/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/185> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/143>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/67/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/116/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "If" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/116> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/324>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/324/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/239>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/239/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/113>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/37>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/321/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/321> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/209>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/209/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/270>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/270/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/185>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/185/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/329/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Lochanside." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/329> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/240>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/240/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/157/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dreeping" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/157> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/155>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/79/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/336>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/210>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/210/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/125/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/49/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/306>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "945" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/306/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/282>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/19/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/80>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/197>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/306/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "barley" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/306> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/252>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/252/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/50/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/167>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/122/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "been" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/122> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/222>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/20/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/137/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/247/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/247> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/27/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "weary" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/27> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/318>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/2>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/294>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/294/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/107>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/84/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "June's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/84> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/92>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/78/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hares" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/78> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/264>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/62/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/179>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/179/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/234>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/234/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/32/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/149>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/149/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/204>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/207/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/207> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/119/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/180>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/180/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/133/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/133> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/276>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/150>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/150/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/74/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/331>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/331/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/246>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/120>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/44/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/89/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aroond" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/89> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/301>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/216>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/14>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/174/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Tae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/174> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/192>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/90/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "A" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/90> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/288>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/86/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/162>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/162/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/15/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "cold" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/15> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/156/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "o'er" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/156> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/343>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/258>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/256/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "louping" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/256> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/132/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/56>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/313>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/6/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Come" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/6> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/228>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/26/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/87/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "pride" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/87> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/8/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/174>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/174/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/98/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/44/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "oot" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/44> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/144>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/68/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/325>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/325/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/38>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/114>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/26/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/26> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/142/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "rashes" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/142> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/271>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/186>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/186/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/241>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/162/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "machair" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/162> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/156>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/156/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/98/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Lochanside." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/98> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/337>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/211>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/126/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/307>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "315" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/206/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/206> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/196/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "slide" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/196> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/283>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/81>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/198>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/198/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/253>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/51>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/168>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/50/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "cheery" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/50> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/201/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aroond" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/201> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/191/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "troot" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/191> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/223>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/278/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "burnies" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/278> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/21/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/138/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/319>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/3>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/173/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "When" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/173> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/295>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/295/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/93>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/229/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Aye if" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/229> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/265>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/265/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/63/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/119/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/119> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/320>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/255/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Tae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/255> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/235>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/235/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/230/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Summer" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/230> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/35/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sun" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/35> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/317/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "A" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/317> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/205>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/86/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "A" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/86> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/61/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Brings" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/61> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/181>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/158/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/158> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/312/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "e'entide" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/312> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/277>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/277/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/127/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "have" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/127> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/151>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/75>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+tss:lochanside_24182  rdf:type  mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/43/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "high" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/43> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/332>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/247>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/247/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/121>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/45>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/302>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/217>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/209/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Lochanside." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/209> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/199/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "A" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/199> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/15/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/193>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/289>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/210/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Lochanside." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/210> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/163>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/87/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/344>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/259>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/133/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/57>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/314>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/229>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/229/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/290>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/103>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/27/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/9>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/260>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/260/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/295/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Swallaes" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/295> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/175>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/175/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/99>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/230>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/230/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/331/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Lochanside." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/331> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/190/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ool" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/190> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/145>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/69>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/326>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/300/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "try" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/300> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/200>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/115>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/39/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/272>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/70>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/187>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/328/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "on" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/328> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/149/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "peezies" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/149> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/303/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "frae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/303> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/242>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/242/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/40/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/157>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/157/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/118/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ye'd" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/118> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/338>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/212>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/150/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "green" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/150> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/10/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/127/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/275/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/275> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/308>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/60/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Tae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/60> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/284>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/49/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/49> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/82>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/199>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/199/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/311/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/311> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/254>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/169>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/52>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/147/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/147> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/224>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/63/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/63> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/22/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/139>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/32/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Till" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/32> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/198/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "A" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/198> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/4>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/296>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/296/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/109>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/170>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/94/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/83/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hide" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/83> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/266>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/266/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/140>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/64>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/321>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/321/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/236>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/110>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/34/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/206>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/206/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/281/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "couping" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/281> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/182>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/17/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/17> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/278>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/278/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/152>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/76/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/333>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/248>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/248/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/122/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/46>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/94/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/94> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/303>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/303/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/218>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/16/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/194>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/266/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/266> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/235/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "time" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/235> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/164>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/88>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/345>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/97/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/97> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/261/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Dippers" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/261> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/134/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/315>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/291>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/274/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ony" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/274> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/138/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/138> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Come" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/5> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/28>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/48/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "scree" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/48> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/261>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/261/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/305/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "dawn" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/305> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/176>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/231>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/146>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/146/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/146/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/146> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/8/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/8> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/327>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/201>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/201/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/116/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/31/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hawk" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/31> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/141/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "oh" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/141> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/273>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/71>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/77/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/77> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/188>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/188/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/243>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/243/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/41>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/158>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/158/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/34/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/34> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/339>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/213>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/175/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/175> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/11/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/128/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/309>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "945" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/309/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/16/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/16> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/285>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/83/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/195/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "glides" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/195> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/340>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/255>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/255/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/42/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/42> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/53>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/310>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "945" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/310/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/225>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/23>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/239/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ever" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/239> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/277/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "season" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/277> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/252/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "are" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/252> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/297>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/297/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/265/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "here" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/265> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/171>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/95>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/234/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "you" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/234> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/39/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "frae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/39> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/267>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/141/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/65>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/322>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/322/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/260/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/260> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/237>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/40/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "shines" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/40> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/111>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/35/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/322/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "aroond" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/322> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/137/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "scatter" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/137> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/316/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Roond" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/316> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/207>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/207/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/183>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/279>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/153>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/77/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/68/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "bloom," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/68> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/334>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/249>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/7/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/123/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/47>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/304>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/304/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/219>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/280>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/19/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dreary" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/19> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/17/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/195>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/195/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/76/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "snowy" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/76> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/250>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/165>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/20/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "land" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/20> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/89/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/346>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/220>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/248/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "fish" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/248> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/135>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/59>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/316>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/316/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/292>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/105>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/29>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/79/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/79> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/90/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/243/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/243> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/189/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "wily" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/189> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/262>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/60/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/177>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/294/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Come" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/294> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/74/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/74> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/232>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/30>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/147>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/147/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/325/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/325> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/328>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/328/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/202>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/202/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/251/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "reason" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/251> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/117/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/297/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "flee" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/297> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/274>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/274/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/189>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/189/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/244>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/42/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/159>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/214>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/12>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/129>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/190>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/190/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/286>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/160>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/84/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/126/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "he" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/126> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/341>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/256>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/256/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/67/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "whin" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/67> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/130>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/11/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "spring" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/11> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/311>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "315" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/311/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/226>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/100>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/24>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/62/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/62> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/6/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/298>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/172>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/96/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/268>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/142/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/66>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/323>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/238>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/36>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/208>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/91/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "aroond" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/91> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/242/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hae" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/242> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/184>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/22/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "lies" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/22> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/188/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tawny" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/188> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/132/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "acreeping" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/132> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/154>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/154/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/78/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/73/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "where" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/73> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/335>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/324/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fire" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/324> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/124>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/48/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/305>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/305/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/281>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/281/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/18>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/196>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/196/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/296/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/296> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/251>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/251/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/202/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "aroond" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/202> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/240/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/240> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/166>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/186/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "whaur" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/186> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/117/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "And" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/117> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/221>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/136>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/96/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Lochanside." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/96> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/317>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/317/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/309/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "bree" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/309> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/293>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/106>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/91/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/310/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "til" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/310> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/263>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/61/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/178>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/125/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ye'd" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/125> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/304/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/304> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/233>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/10/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "winter," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/10> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/31/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/148>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/12> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/329>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/329/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/203>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/118/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/128/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "comes" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/128> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/275>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/275/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/73/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/330>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/24> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/179/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "aboon" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/179> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/154/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/154> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/245>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/43/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/123/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "heron" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/123> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/300>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/300/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/215>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/180/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "pool" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/180> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "doon" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/13>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/191>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/191/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/21/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Brings" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/21> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/287>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/21> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/161>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/13> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/85>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/7> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/131/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "seen" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/131> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/342>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/257>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/19> ;
+        mno:hasOctave   "4" ;
+        mno:hasPitch    "G4" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/131/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/55>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/5> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/312>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "315" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/312/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/227>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/18> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/101>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/9> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "D5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/25>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/3> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lochanside_24182/part/4> .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/7/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/299>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/lochanside_24182/measure/22> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "G5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/134/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "Through" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/134> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/270/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lochanside_24182/event/270> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/173>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/173/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lochanside_24182/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lochanside_24182/event/97/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lochanside_24182/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .

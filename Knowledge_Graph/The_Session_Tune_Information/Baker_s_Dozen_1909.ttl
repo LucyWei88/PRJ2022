@@ -1,0 +1,20 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:baker_s_dozen_1909
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "0" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "8" , "28" , "4" ;
+        tu:has_a_metre_beats      "4" , "14" , "13" ;
+        tu:has_a_rhythm           "barndance" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Baker's Dozen 1909" ;
+        tu:has_a_transcription    "NeilBarr" ;
+        tu:has_notes              "tune id: 1909; setting id: 1909" .

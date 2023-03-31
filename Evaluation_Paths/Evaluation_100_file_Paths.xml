@@ -1,0 +1,809 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="filePath"/>
+    <variable name="fileName"/>
+  </head>
+  <results>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/250_To_Vigo_15945.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>250_To_Vigo_15945</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/42_Beech_Avenue_23790.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>42_Beech_Avenue_23790</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/1st_August_935.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>1st_August_935</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/12th_Of_June_40287.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>12th_Of_June_40287</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/91st_At_Modder_River_The_19315.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>91st_At_Modder_River_The_19315</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/30th_Anniversary_18076.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>30th_Anniversary_18076</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/74th_Highlanders_Quickstep_9369.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>74th_Highlanders_Quickstep_9369</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/10th_Bat_Crossing_Rhine_7078.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>10th_Bat_Crossing_Rhine_7078</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/20_000_Leagues_39575.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>20_000_Leagues_39575</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/15th_Scottish_Division_30544.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>15th_Scottish_Division_30544</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/3_AM_In_Edradour_27196.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>3_AM_In_Edradour_27196</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/101_To_Dublin_38079.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>101_To_Dublin_38079</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/5th_Horseman_Of_The_Apocalypse_41900.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>5th_Horseman_Of_The_Apocalypse_41900</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/250_To_Vigo_2711.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>250_To_Vigo_2711</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/100_Watt_Reels_24291.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>100_Watt_Reels_24291</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/15th_Scottish_Division_30543.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>15th_Scottish_Division_30543</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/2_Rivisjenkka_31116.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2_Rivisjenkka_31116</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/48_Bardes_26513.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>48_Bardes_26513</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_38020.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_38020</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/2D_Or_Not_2D_10543.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2D_Or_Not_2D_10543</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/15th_Scottish_Division_31268.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>15th_Scottish_Division_31268</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/2_AM_Turtle_Patrol_The_32882.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2_AM_Turtle_Patrol_The_32882</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/30_50_35163.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>30_50_35163</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Boy_From_Home_27626.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Boy_From_Home_27626</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/42nd_Highlanders_Farewell_28873.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>42nd_Highlanders_Farewell_28873</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/30_Year_The_31111.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>30_Year_The_31111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Barrel_Of_Knives_21254.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Barrel_Of_Knives_21254</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/9_Years_Later_38794.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>9_Years_Later_38794</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/9th_Of_July_The_9940.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>9th_Of_July_The_9940</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/4_Minutes_33_Seconds_2399.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>4_Minutes_33_Seconds_2399</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/23_34482.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>23_34482</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/30_Year_The_5304.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>30_Year_The_5304</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/4_Minutes_33_Seconds_39267.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>4_Minutes_33_Seconds_39267</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Beigele_32074.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Beigele_32074</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A.J._And_Jeanette_Beaton_s_40488.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A.J._And_Jeanette_Beaton_s_40488</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/5th_Horseman_Of_The_Apocalypse_33944.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>5th_Horseman_Of_The_Apocalypse_33944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/42nd_Highlanders_Farewell_28816.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>42nd_Highlanders_Farewell_28816</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/10th_Bat_Crossing_Rhine_18650.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>10th_Bat_Crossing_Rhine_18650</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Birthday_20517.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Birthday_20517</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/42_Beech_Avenue_40172.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>42_Beech_Avenue_40172</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A.A._Cameron_s_30593.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A.A._Cameron_s_30593</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/28th_Of_January_The_29529.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>28th_Of_January_The_29529</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Blur_Of_Heather_9384.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Blur_Of_Heather_9384</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/1st_August_14126.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>1st_August_14126</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Bhriogais_Uallach_9866.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Bhriogais_Uallach_9866</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/549_Cm_36478.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>549_Cm_36478</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/6_8_Du_Petit_Sarny_11754.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>6_8_Du_Petit_Sarny_11754</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/91st_At_Modder_River_The_8114.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>91st_At_Modder_River_The_8114</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/249_To_Wigton_10999.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>249_To_Wigton_10999</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/40_Year_10038.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>40_Year_10038</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_18552.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_18552</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/30th_Anniversary_6308.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>30th_Anniversary_6308</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/2_Rivisjenkka_32371.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2_Rivisjenkka_32371</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/250_To_Vigo_15944.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>250_To_Vigo_15944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/91st_At_Modder_River_The_19314.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>91st_At_Modder_River_The_19314</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Breath_Of_Fresh_Air_39043.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Breath_Of_Fresh_Air_39043</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Brandnew_Night_25858.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Brandnew_Night_25858</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Birthday_20518.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Birthday_20518</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/128_South_35288.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>128_South_35288</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_28287.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_28287</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Bhriogais_Uallach_20127.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Bhriogais_Uallach_20127</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/18_6_Two_Step_9294.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>18_6_Two_Step_9294</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/3rd_Beekeeper_The_41564.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>3rd_Beekeeper_The_41564</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/79th_s_Farewell_To_Gibraltar_5318.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>79th_s_Farewell_To_Gibraltar_5318</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A.B._41875.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A.B._41875</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Bit_Of_Sweed_36848.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Bit_Of_Sweed_36848</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/150_Boot_The_35234.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>150_Boot_The_35234</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/51st_Highland_Division_The_38608.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>51st_Highland_Division_The_38608</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_28288.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_28288</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/51st_Highland_Division_The_38610.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>51st_Highland_Division_The_38610</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_6970.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_6970</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/12_Weeks_And_A_Day_29725.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>12_Weeks_And_A_Day_29725</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/93_Not_Out_27109.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>93_Not_Out_27109</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/1868_38861.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>1868_38861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Birthday_20519.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Birthday_20519</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A._M._Shinnie_6906.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A._M._Shinnie_6906</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/40_Vloaz_zo_38036.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>40_Vloaz_zo_38036</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/42_Beech_Avenue_40173.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>42_Beech_Avenue_40173</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Birthday_10876.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Birthday_10876</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/40_Year_10126.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>40_Year_10126</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_28292.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_28292</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A._F._Irving_22336.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A._F._Irving_22336</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/5_30am_4856.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>5_30am_4856</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A.A._Cameron_s_1275.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A.A._Cameron_s_1275</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Brandnew_Night_26134.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Brandnew_Night_26134</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/93_Not_Out_4239.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>93_Not_Out_4239</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/23_34317.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>23_34317</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_28289.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_28289</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/30_Year_The_17518.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>30_Year_The_17518</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/250_To_Vigo_31745.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>250_To_Vigo_31745</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/9th_Of_July_The_34710.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>9th_Of_July_The_34710</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/10th_Bat_Crossing_Rhine_18649.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>10th_Bat_Crossing_Rhine_18649</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/5th_Horseman_Of_The_Apocalypse_33943.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>5th_Horseman_Of_The_Apocalypse_33943</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/79th_s_Farewell_To_Gibraltar_39905.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>79th_s_Farewell_To_Gibraltar_39905</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/72nd_Highlanders_Farewell_To_Aberdeen_The_38004.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>72nd_Highlanders_Farewell_To_Aberdeen_The_38004</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Birthday_20516.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Birthday_20516</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/A_Bonny_Lass_To_Merry_Me_7137.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>A_Bonny_Lass_To_Merry_Me_7137</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/5_In_A_Line_33938.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>5_In_A_Line_33938</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/1921_30395.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>1921_30395</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_100/30_Year_The_32038.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>30_Year_The_32038</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

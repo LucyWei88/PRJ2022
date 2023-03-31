@@ -1,0 +1,88 @@
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX fx: <http://sparql.xyz/facade-x/ns/>
+PREFIX schema: <http://schema.org/>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX tu: <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#>
+PREFIX tss: <http://www.example.org/the_session/tune_information/>
+
+CONSTRUCT{
+        ?tune a tu:Tune.
+        ?tune tu:has_a_key_fifths ?fifths.
+        ?tune tu:has_a_key_mode ?mode.
+        ?tune tu:has_a_metre_beat_type ?beat_type.
+        ?tune tu:has_a_metre_beats ?beats.
+        ?tune tu:has_notes ?notes.
+        ?tune tu:has_a_printed_tune_book ?book.
+        ?tune tu:has_a_rhythm ?rhythm.
+        ?tune tu:has_a_source ?source.
+        ?tune tu:has_a_tempo ?tempo.
+        ?tune tu:has_a_transcription ?transcription.
+        ?tune tu:has_a_title ?title.
+  			?tune tu:has_lyrics ?lyric.
+}
+
+WHERE
+  { SERVICE <x-sparql-anything:>
+    {
+      fx:properties fx:location ?_filePath;
+                    fx:media-type "application/xml";
+                    fx:blank-nodes false.
+
+        #Title of Tune
+        ?title_field a xyz:work-title.
+        ?title_field rdf:_1 ?title.
+
+        #Key fifths of Tune
+        ?fifths_field a xyz:fifths.
+        ?fifths_field rdf:_1 ?fifths.
+
+        #Metre beats of Tune
+        ?beats_field a xyz:beats.
+        ?beats_field rdf:_1 ?beats.
+
+        #Metre beat type of Tune
+        ?beat_type_field a xyz:beat-type.
+        ?beat_type_field rdf:_1 ?beat_type.
+
+        #The following must be in separate OPTIONAL blocks
+        #In only one OPTIONAL block,
+        #It won't query other triple patterns if the first condition is not met.
+
+        #Tune from which book
+        OPTIONAL{?book_field xyz:name "book".
+                 ?book_field rdf:_1 ?book.}
+
+        #Rhythm of the tune
+        OPTIONAL{?rhythm_field xyz:name "rhythm".
+                 ?rhythm_field rdf:_1 ?rhythm.}
+
+        #Transcription information of the tune
+        OPTIONAL{?transcription_field xyz:name "transcription".
+                 ?transcription_field rdf:_1 ?transcription.}
+
+        #Notes of the tune
+        OPTIONAL{?notes_field xyz:name "notes".
+                 ?notes_field rdf:_1 ?notes.}
+
+        #Tempo of the tune
+        OPTIONAL{?tempo_field xyz:tempo ?tempo.}
+
+        #Key mode of the tune
+        OPTIONAL{ ?mode_field a xyz:mode.
+                  ?mode_field rdf:_1 ?mode.}
+
+        #Source mode of the tune
+        OPTIONAL{ ?source_field a xyz:source.
+                  ?source_field rdf:_1 ?source.}
+
+        OPTIONAL{?lyric_field xyz:name "lyrics".
+                 ?lyric_field rdf:_1 ?lyric.}
+  }
+
+        #?_fileName must not contain any spaces
+        BIND (fx:entity(tss:, fx:String.toLowerCase(?_fileName)) AS ?tune ) .
+  }

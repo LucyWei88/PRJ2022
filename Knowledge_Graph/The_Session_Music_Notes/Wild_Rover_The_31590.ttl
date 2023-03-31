@@ -1,0 +1,1144 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/56/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "No" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/56> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/6/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/6> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/66/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/45/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/27/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "now" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/27> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/24/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/52/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "No," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/52> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/31>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/74/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/2/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "been" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/2> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/53/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/23/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "beer." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/23> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/32/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/11/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/47/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "rover" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/47> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/79/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "more" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/79> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/43/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "will" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/43> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/51/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "it's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/51> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/14/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "all" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/14> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/48/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/22/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/22> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/27/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/75/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "never," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/75> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/46/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wild" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/46> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/34>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/56/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/17/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "on" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/17> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/8/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/14/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/71/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wild" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/71> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/42/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "never" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/42> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/64/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/13/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "spent" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/13> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/43/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/22/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/66/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "will" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/66> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/8/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/8> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/37/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "I" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/37> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/72/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/29>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/51/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/3/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/30/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/62/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "never" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/62> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/4/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wild" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/4> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "great" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/59>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/25> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/57/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "nay" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/57> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/17/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/7/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "many's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/28/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "I'm" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/28> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/67/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/46/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/53/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Nay," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/53> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/25>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/11> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/3/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/3> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/24/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "But" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/24> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/32>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/75/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/48/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "no" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/48> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/54/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/6/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/12/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/83>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/36> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/44/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "play" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/44> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/62/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/15/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/15> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/68/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "play" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/68> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/70/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/49/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/28/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/11/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/11> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/64/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "more" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/64> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/72/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "rover." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/72> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/35>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/78/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/57/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/36/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/15/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/67/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "I" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/67> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "year," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/9> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/31/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gold" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/31> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/44/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/23/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/63/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "no" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/63> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "rover" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/5> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/30>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/34/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "store" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/34> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/52/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/4/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/31/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "1. I've" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/29/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "returning" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/29> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/30/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "with" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/30> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/39>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/16> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/54/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Never!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/54> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/78/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "no" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/78> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/68/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/47/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/26>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/11> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/49/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "more" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/49> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/50/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/50> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/21/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "whiskey" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/21> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/33>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/76>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/32> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/74/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "No," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/74> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/7/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/34/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/13/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/45/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/45> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/16/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "money" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/16> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/84>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/36> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/63/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/70/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/70> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/42/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/21/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+tss:wild_rover_the_31590
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/12/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "I've" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/12> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/71/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/50/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/2/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/29/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/36/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/36> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/36>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/79/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/37/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/32/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/32> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/wild_rover_the_31590/part/4> .
+
+<http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/wild_rover_the_31590/event/16/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/wild_rover_the_31590/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .

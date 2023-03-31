@@ -1,0 +1,19 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:dark_girl_dressed_in_blue_2_polka
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "2" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "4" ;
+        tu:has_a_metre_beats        "2" ;
+        tu:has_a_printed_tune_book  "CRE3.075 (Cail\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00adn Dubh i bhFeisteas Gorm 2)" ;
+        tu:has_a_rhythm             "polka" ;
+        tu:has_a_tempo              "110.00" ;
+        tu:has_a_title              "Dark Girl Dressed in Blue (2) (polka)" .

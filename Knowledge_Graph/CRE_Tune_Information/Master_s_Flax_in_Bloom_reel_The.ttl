@@ -1,0 +1,19 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:master_s_flax_in_bloom_reel_the
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "0" , "2" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "4" ;
+        tu:has_a_metre_beats        "4" ;
+        tu:has_a_printed_tune_book  "CRE4.114 (L\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00adon Faoi Bhl\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00a1th)" ;
+        tu:has_a_tempo              "90.00" ;
+        tu:has_a_title              "Master's Flax in Bloom (reel), The" ;
+        tu:has_notes                "Michael McDermott's setting (Tyrone fiddler, d.1947, known as" .

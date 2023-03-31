@@ -1,0 +1,619 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/42/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/14/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/27/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/27/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/27> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/24/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fleshy" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/24> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/2/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/21/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "With" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/21> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/21/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/41/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Brian" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/41> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "He" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/9> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/17/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "make" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/17> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/19/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/6/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "breeches" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/6> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/3/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Linn" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/3> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/7/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/41/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/13/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/37/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/37> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/26/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/31/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "in," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/31> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/20/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/20/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pair" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/20> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/18/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/6/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/40/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/12/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/19/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/19> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/40/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "says" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/40> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/16/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/16> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/25/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/13/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "an" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/13> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/2/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/2> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/38/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/36/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pleasant" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/36> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/32/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/30/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "side" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/30> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/17/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/29/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "woolly" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/29> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/26/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "out" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/26> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/24/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/37/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/18/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "him" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/18> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/43/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Linn." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/43> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/15/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sheepskin" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/15> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/31/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/8/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/8> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/12/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "got" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/12> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "no" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/5> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/16/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/29/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/4/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/32/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "\"They'll" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/32> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/36/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/28/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/28> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/25/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "side" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/25> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/22/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/22> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/30/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/43/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/15/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/28/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+tss:brian_o_linn_4448
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/brian_o_linn_4448/part/4> .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/42/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "O" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/42> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/3/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/14/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "old" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/14> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/7/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/4/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "had" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/4> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Brian" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/22/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/38/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "cool,\"" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/38> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/brian_o_linn_4448/event/8/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/brian_o_linn_4448/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .

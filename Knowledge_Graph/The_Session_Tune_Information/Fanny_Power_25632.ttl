@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:fanny_power_25632
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "1" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "4" ;
+        tu:has_a_metre_beats      "3" ;
+        tu:has_a_rhythm           "waltz" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Fanny Power 25632" ;
+        tu:has_a_transcription    "BenH" ;
+        tu:has_lyrics             "(Music part A:)\nWhen all but dreaming was Fanny Power,\nA light came streaming from out her bower.\nA heavy thought at her door delayed.\nA heavy hand on the latch was laid.\n(Music part A:)\n\"Now, who dare venture at this dark hour\nUnbid to enter my maiden bower?\"\n\"Oh, Fanny, open the door to me\nAnd your true lover you'll surely see.\"\n(Music part B:)\n\"My own true lover so tall and brave,\nHe lives in next isle o'er the angry wave.\"\n\"Your true love's body lies on the pier.\nHis faithful spirit is with you here.\"\n(Music part B:)\n\"Oh, his look was cheerful and his voice was gay,\nYour face is fearful and your speech is gray;\nAnd sad and tearful your eye of blue.\nAh, but Patrick, Patrick, alas, 'tis you!\"\n(Music part A:)\nThe dawn was breaking. She heard below\nThe two cocks shaking their wings to crow.\n\"Oh, hush you! hush you! both red and gray,\nOr will you hurry my love away?\"\n(Music part B:)\n\"Oh, hush your crowin', both gray and red,\nOr he will be goin' to join the dead;\nAnd cease you calling his ghost to the mold;\nAnd I'll come crowning your wings with gold.\"\n(Music part A:)\nWhen all but dreaming was Fanny Power,\nA light came streaming beneath her bower;\nAnd on the morrow, when they awoke,\nThey knew that sorrow her heart had broke.\n(Music part B)" ;
+        tu:has_notes              "tune id: 957; setting id: 25632" .

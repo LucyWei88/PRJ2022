@@ -1,0 +1,471 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/21/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "li" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/21> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/31/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/8/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ka" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/8> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "mu" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/5> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/16/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B[-1]4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/29/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B[-1]4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/2/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/10/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "su0105" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/10> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/10/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/23/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/30/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/15/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/28/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/26/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ba" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/26> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/23/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ni" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/23> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/20/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "si" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/20> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/4/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "no" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/4> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/22/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Gro" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/19/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pro" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/19> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/16/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ka," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/16> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/6/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/14/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/27/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ka." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/33> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/30/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "li" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/30> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/21/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/29/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "bi" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/29> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/22/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "g'or" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/22> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/19/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/6/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "zy" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/6> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B[-1]4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/3/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sel" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/3> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/13>
+        rdf:type        mno:Note ;
+        mno:hasMeasure  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/4> ;
+        mno:hasOctave   "5" ;
+        mno:hasPitch    "E5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/18/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "za" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/18> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/15/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ni" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/15> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/26/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B[-1]4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/12/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "da" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/12> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/20/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/18/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/4/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/28/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "za" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/28> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/25/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ka," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/25> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/12/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+tss:gro_weselno_muzyka_25547
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/25/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "u" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/9> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/2/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "we" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/2> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/14/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hut" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/14> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/11/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sia" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/11> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/3/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/part/4> .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/31/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "by" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/31> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/11/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/27/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "li" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/27> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/event/8/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/gro_weselno_muzyka_25547/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F4" .

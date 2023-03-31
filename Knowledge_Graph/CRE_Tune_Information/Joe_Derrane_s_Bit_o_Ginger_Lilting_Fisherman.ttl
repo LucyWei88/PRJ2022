@@ -1,0 +1,20 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:joe_derrane_s_bit_o_ginger_lilting_fisherman
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "1" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "8" ;
+        tu:has_a_metre_beats        "6" ;
+        tu:has_a_printed_tune_book  "CRE 3.025 (Port Sheosaimh U\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00ad Dhear\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00a1in)" ;
+        tu:has_a_rhythm             "jig" ;
+        tu:has_a_tempo              "80.00" ;
+        tu:has_a_title              "Joe Derrane's" ;
+        tu:has_notes                "Joe learned it from his teacher, Jerry O'Brien, who called it \"Bit o' Ginger\" in his tune book. Composed by Paddy Killoran?" .

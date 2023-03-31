@@ -1,0 +1,1118 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+cre:big_road_to_sligo_the_tar_road_to_sligo
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/part/4> .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/big_road_to_sligo_the_tar_road_to_sligo/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .

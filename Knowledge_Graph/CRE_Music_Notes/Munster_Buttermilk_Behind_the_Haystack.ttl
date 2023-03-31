@@ -1,0 +1,1574 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/179>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/158>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/187>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/166>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/145>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/31>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/195>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/174>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/153>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/39>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/182>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/161>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/190>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/169>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/148>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/34>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/198>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/177>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/156>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/42>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/185>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/164>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/29>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/193>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/172>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/151>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/37>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/180>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/159>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/188>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/40> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/167>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/146>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/32>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/196>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/175>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/154>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/40>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/183>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/162>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/191>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/170>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/149>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/35>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+cre:munster_buttermilk_behind_the_haystack
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/199>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/178>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/157>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/186>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/165>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/30>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/21> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/194>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/173>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/152>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/38>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/181>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/160>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/189>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/40> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/168>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/147>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/33>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/197>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/42> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/176>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/155>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/41>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/184>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/163>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/192>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/41> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/171>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/150>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/36>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/part/4> .
+
+<http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/munster_buttermilk_behind_the_haystack/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .

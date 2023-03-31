@@ -1,0 +1,19 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/tune_information/pull_the_knife_&_stick_it_again>
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "1" , "0" ;
+        tu:has_a_key_mode           "major" , "minor" ;
+        tu:has_a_metre_beat_type    "8" , "4" ;
+        tu:has_a_metre_beats        "4" , "6" ;
+        tu:has_a_printed_tune_book  "CRE3.012 (Tarraing agus S\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00a1ith Ar\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00ads)" ;
+        tu:has_a_tempo              "80.00" ;
+        tu:has_a_title              "Pull the Knife & Stick It Again" ;
+        tu:has_notes                "I included an \\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00a2\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u00a2\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00ac\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0085\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0093alternate\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00a2\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u00a2\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00ac\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u009d B in mm 2 and 6 in case low B" .

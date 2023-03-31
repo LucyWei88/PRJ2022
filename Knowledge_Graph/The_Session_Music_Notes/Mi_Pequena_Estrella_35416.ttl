@@ -1,0 +1,948 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+tss:mi_pequena_estrella_35416
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/11> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/10> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/31>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/29>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/10> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/5> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/10> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/36>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/22> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/30>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/35>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/34>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "7560" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/32> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/20> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/24> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/34> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/33>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/32>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/part/4> .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/30> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/mi_pequena_estrella_35416/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .

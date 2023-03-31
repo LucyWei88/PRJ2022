@@ -1,0 +1,18 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:paddy_o_brien_s_hornpipe_western_athlone
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "2" , "0" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "4" ;
+        tu:has_a_metre_beats        "4" ;
+        tu:has_a_printed_tune_book  "CRE3.217 (Cornphiopa Phadraig Ui Bhriain)" ;
+        tu:has_a_title              "Paddy O'Brien's Hornpipe" ;
+        tu:has_notes                "1:CRE shows no repeats in this tune. Usually played in" .

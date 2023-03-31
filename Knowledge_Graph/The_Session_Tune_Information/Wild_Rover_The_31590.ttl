@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:wild_rover_the_31590
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "1" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "4" ;
+        tu:has_a_metre_beats      "3" ;
+        tu:has_a_rhythm           "waltz" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Wild Rover, The 31590" ;
+        tu:has_a_transcription    "Gary B" ;
+        tu:has_lyrics             "Verse 2:\nI went into an alehouse I used to frequent\nand I told the landlady my money was spent.\nI asked her for credit, she answered me nay,\nSuch a custom like yours I can have any day\nVerse 3:\nI took from my pocket ten sovereigns bright\nand the landlady's eyes opened wide with delight.\nShe said \"you'll have whiskey and wines of the best\nand the words that I told ye were only in jest.\"\nVerse 4:\nI'll go home to my parents, confess what I've done,\nand I'll ask them to pardon their prodigal son.\nAnd when they've caressed me as oft' times before\nthen I never will play the wild rover no more" ;
+        tu:has_notes              "tune id: 9635; setting id: 31590" .

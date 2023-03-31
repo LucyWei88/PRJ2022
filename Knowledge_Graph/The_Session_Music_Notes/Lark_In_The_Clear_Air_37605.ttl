@@ -1,0 +1,1712 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/99/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "mor" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/99> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/63/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/63> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/115/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fond" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/115> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/113/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/95/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/98/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "I" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/98> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/53/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/87/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "been" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/87> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/32/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/11/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/95/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "And" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/95> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/114/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/114> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/70/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "gives" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/70> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/121/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/29/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ted" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/29> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/41/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "will" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/41> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/100/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/82/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/94/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "tion" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/94> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/61/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/6/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "are" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/6> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/40/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/19/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/109/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sing" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/109> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/91/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "grant" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/91> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/28/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ra" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/28> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/36/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "think" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/36> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/5/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "tell" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/5> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/108/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/25/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "en" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/25> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/69/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/27/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/49/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/49> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/24/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/24> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/50/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "clear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/50> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/57/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/57> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/102/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "she" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/102> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/32/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "And" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/32> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/116/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/98/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/85/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "ous" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/85> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/77/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/56/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/35/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/56/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "say" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/56> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/14/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/53/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "air" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/53> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/124/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/4/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/103/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/85/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/64/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/77/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/77> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/43/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Dear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/76/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "soul" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/76> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/111/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/93/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/20/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "soul" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/20> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/72/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/51/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/47/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/47> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/30/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/100/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "hear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/100> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/44/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sing" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/44> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/97/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/97> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/119/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/15/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/15> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/124/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "day." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/124> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/80/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/59/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/43/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "hear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/43> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/38/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/96/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "As" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/96> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/14/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "love," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/14> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/40/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "sweet" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/40> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/93/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ed," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/93> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/119/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "air" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/119> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/7/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/11/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/11> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/106/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/88/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/38/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "she" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/38> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/67/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/46/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/25/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/92/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "la" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/92> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/35/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/35> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/10/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "all" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/10> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/114/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/59/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "day." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/59> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/96/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/75/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/34/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "I" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/34> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/54/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/12/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/31/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "As" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/31> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/58/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "me" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/58> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/84/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "has" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/84> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/122/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/2/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/111/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/111> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/101/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/55/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/55> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/30/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "tion" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/30> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/62/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/41/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/20/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/79/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/79> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/54/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "not" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/54> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/106/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "sweet" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/106> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/62/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "It" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/62> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/109/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/91/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/70/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/2/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "I" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/2> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/49/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/28/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/75/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "smile" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/75> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/46/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/46> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/99/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/21/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "soul's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/21> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/78/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/57/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/36/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/82/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "joy" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/82> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/15/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/45/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "me," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/45> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/123/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "say." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/123> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/5/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/16/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/16> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/42/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lark" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/42> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/65/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/13/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "mind," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/13> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/44/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/122/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/122> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/23/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/118/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "heart" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/118> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/37/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/37> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/12/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/12> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/19/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/19> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/94/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/73/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/73/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/73> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/31/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/10/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/69/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "beams" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/69> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "I" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "in" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/9> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/120/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/81/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/68/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "that" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/68> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/60/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/18/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/121/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/121> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/65/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ten" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/65> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/110/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "all" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/110> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/107/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/64/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "is" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/64> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/68/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/47/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/116/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "clear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/116> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/26/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/105/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "shall" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/105> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/61/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "For" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/61> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/88/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "e" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/88> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/113/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/113> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/115/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/97/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/76/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/60/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "nay." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/60> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/55/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/34/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/13/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/101/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "row" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/101> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/108/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hear" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/108> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/7/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "her" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/27/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "chan" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/27> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/123/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/3/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/4/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "thoughts" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/4> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/102/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/81/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hope" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/81> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/84/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/107/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "lark" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/107> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/63/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/42/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/26/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "o" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/26> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/21/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/3/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "shall" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/3> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/80/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "its" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/80> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/23/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "soars" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/23> ;
+        mno:hasSyllabic    "single" .
+
+tss:lark_in_the_clear_air_37605
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/110/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/92/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/51/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "will" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/51> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/103/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/103> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/50/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/29/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/18/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/18> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/72/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ing" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/72> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/118/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/79/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/58/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/37/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/16/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/78/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "all" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/78> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/67/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "der," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/67> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/6/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/part/4> .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/105/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/87/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/120/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "would" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/120> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1890" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/66/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "5040" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/45/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/24/lyrics/2> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/66/lyrics/2>
+        mno:hasLineNumber  "2" ;
+        mno:hasLyricText   "this" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lark_in_the_clear_air_37605/event/66> ;
+        mno:hasSyllabic    "single" .

@@ -1,0 +1,1092 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+cre:jenny_tie_your_bonnet_reel_tie_the_bonnet
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/145>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/part/4> .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/jenny_tie_your_bonnet_reel_tie_the_bonnet/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .

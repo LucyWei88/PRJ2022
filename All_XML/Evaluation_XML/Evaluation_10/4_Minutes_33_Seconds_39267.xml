@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise>
+  <work>
+    <work-title>4 Minutes 33 Seconds 39267</work-title>
+  </work>
+  <identification>
+    <encoding>
+      <encoder>abc2xml version 233</encoder>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <encoding-date>2022-12-08</encoding-date>
+    </encoding>
+    <source>thesession.org</source>
+    <miscellaneous>
+      <miscellaneous-field name="notes">tune id: 2399; setting id: 39267</miscellaneous-field>
+      <miscellaneous-field name="rhythm">mazurka</miscellaneous-field>
+      <miscellaneous-field name="transcription">Anonymous_Piper</miscellaneous-field>
+    </miscellaneous>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name />
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>2520</divisions>
+        <key>
+          <fifths>2</fifths>
+          <mode>dorian</mode>
+        </key>
+        <time>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="2">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="3">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="4">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="5">
+      <note>
+        <rest />
+        <duration>6300</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+    </measure>
+    <measure number="6">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="7">
+      <print new-system="yes" />
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="8">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="9">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="10">
+      <note>
+        <rest />
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+    </measure>
+    <measure number="11">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="12">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="13">
+      <print new-system="yes" />
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="14">
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>1260</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+    </measure>
+    <measure number="15">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="16">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="17">
+      <note>
+        <rest />
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <rest />
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="18">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="19">
+      <print new-system="yes" />
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="20">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="21">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="22">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="23">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="24">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="25">
+      <print new-system="yes" />
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="26">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="27">
+      <note>
+        <rest />
+        <duration>3780</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <rest />
+        <duration>3780</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="28">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="29">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="30">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="31">
+      <print new-system="yes" />
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward" />
+      </barline>
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="32">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="33">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="34">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="35">
+      <note>
+        <rest />
+        <duration>3780</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <rest />
+        <duration>3780</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="36">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="37">
+      <print new-system="yes" />
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="38">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="39">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="40">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="41">
+      <note>
+        <rest measure="yes" />
+        <duration>7560</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="42">
+      <note>
+        <rest />
+        <duration>3780</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <rest />
+        <duration>3780</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        <repeat direction="backward" />
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

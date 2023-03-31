@@ -1,0 +1,20 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:duke_of_gordon_s_favourite_the_27307
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "3" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "8" ;
+        tu:has_a_metre_beats      "6" ;
+        tu:has_a_rhythm           "jig" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Duke Of Gordon's Favourite, The 27307" ;
+        tu:has_a_transcription    "Moxhe" ;
+        tu:has_notes              "tune id: 14796; setting id: 27307" .

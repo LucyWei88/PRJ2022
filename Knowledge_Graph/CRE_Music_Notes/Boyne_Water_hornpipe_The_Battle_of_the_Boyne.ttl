@@ -1,0 +1,859 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+cre:boyne_water_hornpipe_the_battle_of_the_boyne
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/62>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/10> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/87>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/14> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/111>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/18> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/part/4> .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/boyne_water_hornpipe_the_battle_of_the_boyne/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .

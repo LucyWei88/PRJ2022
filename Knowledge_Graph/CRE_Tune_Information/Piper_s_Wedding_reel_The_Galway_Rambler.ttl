@@ -1,0 +1,19 @@
+@prefix cre:    <http://www.example.org/cre/tune_information/> .
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+cre:piper_s_wedding_reel_the_galway_rambler
+        rdf:type                    tu:Tune ;
+        tu:has_a_key_fifths         "1" ;
+        tu:has_a_key_mode           "major" ;
+        tu:has_a_metre_beat_type    "4" ;
+        tu:has_a_metre_beats        "4" ;
+        tu:has_a_printed_tune_book  "CRE2.177 (Bainis an Ph\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u0083\\~A\\u0083\\^A\\u0083\\~A\\u0082\\^A\\u0082\\~A\\u0083\\^A\\u0082\\~A\\u0082\\^A\\u00adobaire)" ;
+        tu:has_a_rhythm             "reel" ;
+        tu:has_a_tempo              "90.00" ;
+        tu:has_a_title              "Piper's Wedding  (reel), The" .

@@ -1,0 +1,20 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:mist_covered_mountain_the_33413
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "1" ;
+        tu:has_a_key_mode         "dorian" ;
+        tu:has_a_metre_beat_type  "8" ;
+        tu:has_a_metre_beats      "6" ;
+        tu:has_a_rhythm           "jig" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Mist Covered Mountain, The 33413" ;
+        tu:has_a_transcription    "NfldWhistler" ;
+        tu:has_notes              "tune id: 256; setting id: 33413" .

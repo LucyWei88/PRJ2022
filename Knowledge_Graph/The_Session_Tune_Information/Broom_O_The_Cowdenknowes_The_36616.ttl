@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:broom_o_the_cowdenknowes_the_36616
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "2" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "4" ;
+        tu:has_a_metre_beats      "4" ;
+        tu:has_a_rhythm           "reel" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Broom O' The Cowdenknowes, The 36616" ;
+        tu:has_a_transcription    "Christian W." ;
+        tu:has_lyrics             "1. How blithe was I each morn tae see\nMy lass come o'er the hill\nShe tripped the burn and she ran to me\nI met her with good will\n\n2. She would oblige me every hour\nCould I but faithful be?\nShe stole my heart, could I refuse\nWhate'er she asked of me?\n\n\n3. We neither herded ewes nor lamb\nWhile the flock near us lay\nShe gathered in the sheep at night\nAnd cheered me all the day\n\n4. Hard fate that I should banished be\nSae early in the morn\nBecause I lo'ed the fairest lass\nThat ever yet was born\n\n5. Fareweel, ye Cowdenknowes, fareweel\nFareweel all pleasures there\nTo roam again wi' my lass by my side\nIs all I want or care" ;
+        tu:has_notes              "tune id: 17232; setting id: 36616" .

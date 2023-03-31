@@ -1,0 +1,1910 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/6/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/105/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/92/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/71/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/81/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "With" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/81> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/50/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/4/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/4> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/44/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/44> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/29/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/52/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/52> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/15/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "bath" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/15> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/102/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dy." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/102> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/113/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/76/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "make" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/76> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/79/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/58/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/37/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/126/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Lan" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/126> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/47/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gave" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/47> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/16/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/11/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Lan" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/11> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/18/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "till" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/18> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/121/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/1/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/1> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/100/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/87/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/72/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "but" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/72> ;
+        mno:hasSyllabic    "single" .
+
+tss:lanigan_s_ball_37604
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/66/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/45/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/24/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/5> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/122/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hur" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/122> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/43/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "cres" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/43> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/96/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/96> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/14/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "He" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/14> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/129/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/67/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/67> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/9/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/108/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/95/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/74/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/53/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/117/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/117> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/38/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/38> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/32/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/11/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/92/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Ball." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/92> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/10/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "my" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/10> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/116/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/63/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "when" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/63> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/82/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/61/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/113/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/113> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/40/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/34/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/34> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/19/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/87/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tions" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/87> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/58/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "That" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/58> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/4/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/103/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/90/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/108/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/108> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/69/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/29/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/29> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/48/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/30/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "mad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/30> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/27/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/83/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "rows" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/83> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/6/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "hol" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/6> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/54/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "his" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/54> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/111/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/98/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/77/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/104/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/104> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/25/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fa" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/25> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/56/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/35/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/78/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "eyes" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/78> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/14/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/2/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/2> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/128/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gan's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/128> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/49/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "large" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/49> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/50/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "par" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/50> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/119/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/85/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/100/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/100> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/64/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/21/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "n't" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/21> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/43/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/74/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ten," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/74> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/22/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/82/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/82> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/45/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ground." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/45> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/20>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/127/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/7/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/106/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/93>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/17> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/16/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "erd" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/16> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/72/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/51/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/69/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "So" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/69> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/30/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/70/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "if" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/70> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/77/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "your" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/77> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/119/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ed" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/119> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/1/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "In" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/1> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/41/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ten" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/41> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/127/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "i" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/127> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/114/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/80/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/12/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "i" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/12> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/59/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/65/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "went" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/65> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/38/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/17/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/73/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lis" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/73> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/36/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Left" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/36> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/123/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "roo!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/123> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/122/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/97/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/97> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/2/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/1> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/101/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/88/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/67/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/46/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/68/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "wall." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/68> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/25/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/118/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/118> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/32/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/32> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/39/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "farm" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/39> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/40/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "of" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/40> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/130>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/25> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/109/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/96/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/75/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/54/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/64/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "he" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/64> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/33/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/12/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/27/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "he" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/27> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/114/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/114> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/35/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gain;" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/35> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/88/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "at" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/88> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/117/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/83/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/62/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/59/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "stood" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/59> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/41/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/60/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "be" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/60> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/20/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/23/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "pound." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/23> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/109/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lad" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/109> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/110/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ed" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/110> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/31/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "him" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/31> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/125/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/24> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/84/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "and" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/84> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/5/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/7/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lived" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/7> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/104/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/20> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/91/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/70/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/55/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "re" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/55> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/49/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/28/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/105/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/105> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/26/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ther" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/26> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/79/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "glis" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/79> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/112/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/80/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ten" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/80> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/3/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "town" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/3> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/99/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/129/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Ball." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/129> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/78/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/51/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ty" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/51> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/57/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/36/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/15/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/101/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "ed" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/101> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/22/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/22> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/75/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "I'll" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/75> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/120/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/23> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/125/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "for" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/125> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/86/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/46/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "He" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/46> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/65/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/99/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/99> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/44/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/23/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/17/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "'way" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/17> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/71/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "you" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/71> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/128/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/8/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/107/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/94/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/121/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Whack!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/121> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/42/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/42> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/73/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/52/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/95/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/95> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/31/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/13/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gan" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/13> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/10/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/66/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "to" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/66> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/116/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "la," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/116> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/115/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/37/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "him" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/37> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/81/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/60/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/98/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/98> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/91/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "gan's" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/91> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/39/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/18/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/62/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "him" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/62> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/123/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/112/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Whack!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/112> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/33/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "man" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/33> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/3/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/102/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/89/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/120/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dy." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/120> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/86/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "\"rup" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/86> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/68/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/9/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Jim" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/9> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/47/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/94/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Whack!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/94> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/26/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/57/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "tions" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/57> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/107/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "lal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/107> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/28/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "died" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/28> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/110/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/115/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/115> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/97/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/76/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/89/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Lan" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/89> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/55/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/5/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "at" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/5> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/34/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/90/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "i" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/90> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/13/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/53/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "all" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/53> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/61/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "side" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/61> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/103/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "Whack!" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/103> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/24/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "His" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/24> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/118/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/111/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "dy." ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/111> ;
+        mno:hasSyllabic    "end" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "630" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/84/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/63/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/85/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "the" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/85> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/42/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/8/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "one" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/8> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/48/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "a" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/48> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/21/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/56/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "la" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/56> ;
+        mno:hasSyllabic    "middle" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/19/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "he" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/19> ;
+        mno:hasSyllabic    "single" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/part/4> .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasLyric     <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/126/lyrics/1> ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/20/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "had" ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/20> ;
+        mno:hasSyllabic    "begin" .
+
+<http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/106/lyrics/1>
+        mno:hasLineNumber  "1" ;
+        mno:hasLyricText   "fal," ;
+        mno:hasNote        <http://www.example.org/the_session/music_notes/lanigan_s_ball_37604/event/106> ;
+        mno:hasSyllabic    "single" .

@@ -1,0 +1,903 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+cre:long_hills_of_mourne_reel_the_the_old_bush_captain_rock
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/12> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/2> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/part/4> .
+
+<http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/long_hills_of_mourne_reel_the_the_old_bush_captain_rock/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .

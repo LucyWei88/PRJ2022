@@ -1,0 +1,111 @@
+PREFIX fx: <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#>
+PREFIX tss: <http://www.example.org/the_session/music_notes/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?scoreEntity a mno:Score .
+  ?scoreEntity mno:contains ?partEntity .
+  ?partEntity a mno:Part .
+  ?measureEntity a mno:Measure .
+  ?measureEntity mno:hasPart ?partEntity .
+  ?eventEntity a ?eventType .
+  ?eventEntity mno:hasMeasure ?measureEntity .
+  ?eventEntity mno:hasPitch ?pitch .
+  ?eventEntity mno:hasDuration ?duration .
+  ?eventEntity mno:hasOctave ?octave.
+  ?eventEntity mno:hasLyric ?lyricsEntity.
+  ?lyricsEntity mno:hasNote ?eventEntity.
+  ?lyricsEntity mno:hasLyricText ?text.
+  ?lyricsEntity mno:hasSyllabic ?syllabic.
+  ?lyricsEntity mno:hasLineNumber ?lineNumber
+}
+WHERE {
+
+	{
+		# Melody Extraction Query.
+		SELECT ?step ?alteration ?octave ?pitch ?type ?duration ?noteCount ?measureCount ?partCount ?voice ?fileName
+      ?lyric ?syllabic ?text ?lineNumber
+		#SELECT ?measure ?note ?step ?octave ?pitch
+		WHERE {
+		    SERVICE <x-sparql-anything:> {
+
+		        fx:properties fx:location ?_filePath;
+		                      fx:media-type "application/xml";
+       fx:blank-nodes false.
+		    ?score a fx:root .
+				# Part
+		        ?score ?hasPart ?part .
+				    ?part a xyz:part .
+		        #Extracts the measures:
+		        ?part ?hasMeasure ?measure.
+				# Measure
+				    ?measure a xyz:measure .
+            #Extracts the notes from each measure:
+				# Note
+		        ?measure ?hasNote ?note.
+		        ?note a xyz:note.
+		        {
+					  #Extracts the pitch from the note element:
+		            ?note ?hasPitch ?pitch_.
+		            ?pitch_ a xyz:pitch.
+		        #Extracts the pitch's step:
+		            ?pitch_ ?hasStep ?stepElmnt.
+		            ?stepElmnt a xyz:step.
+		            ?stepElmnt rdf:_1 ?step.
+		        #Extracts the corresponding octave:
+		            ?pitch_ ?hasOctave ?octaveElmnt.
+		            ?octaveElmnt a xyz:octave.
+		            ?octaveElmnt rdf:_1 ?octave.
+          OPTIONAL{
+
+                     ?note ?hasLyric ?lyric.
+                     ?lyric a xyz:lyric.
+                     ?lyric ?hasSyllabic ?syllabicElmnt.
+                     ?syllabicElmnt a xyz:syllabic.
+                     ?syllabicElmnt rdf:_1 ?syllabic.
+                     ?lyric ?hasText ?textElmnt.
+                     ?textElmnt a xyz:text.
+                     ?textElmnt rdf:_1 ?text.
+                     ?lyric xyz:number ?lineNumber.
+
+               }
+			  #Extracts the note's alterations, if present:
+		      	    OPTIONAL{
+		                ?pitch_ fx:anySlot [ a xyz:alter ; rdf:_1 ?alteration ].
+		      	    }
+		      	    BIND( CONCAT(?step, IF(BOUND(?alteration) && ?alteration != "0", CONCAT("[",?alteration,"]"), ""), ?octave) AS ?pitch ) .
+				} UNION {
+					#Abstracts the rest if present instead:
+		            ?note ?mPropNote ?restElmnt.
+		            ?restElmnt a xyz:rest.
+		            BIND ( IF( BOUND(?restElmnt), "Rest", "") AS ?step)
+			    	BIND ( IF( BOUND(?restElmnt), "Rest", "") AS ?pitch)
+		        }
+		        # Abstracts the corresponding type:
+		        OPTIONAL { ?note fx:anySlot [ a xyz:type ; rdf:_1 ?type ] } .
+		        # Abstracts the corresponding duration:
+		        OPTIONAL { ?note fx:anySlot [ a xyz:duration ; rdf:_1 ?duration ] } .
+		    }
+		    # Generates measure and note position counters:
+		    BIND(fx:cardinal(?hasMeasure) AS ?measureCount)
+		    BIND(fx:cardinal(?hasNote) AS ?noteCount)
+		    BIND(fx:cardinal(?hasPart) AS ?partCount)
+		}
+		    ORDER BY ?partCount ?measureCount ?noteCount
+	}
+	BIND ( fx:serial("event") AS ?eventOrder ) .
+	# Mint entity IRIs
+	BIND ( fx:entity(tss:, fx:String.toLowerCase( ?_fileName ) ) AS ?scoreEntity ) .
+	BIND ( fx:entity(?scoreEntity, "/part/", ?partCount ) AS ?partEntity ) .
+	BIND ( fx:entity(?scoreEntity, "/measure/", ?measureCount ) AS ?measureEntity ) .
+	BIND ( fx:entity(?scoreEntity, "/event/", ?eventOrder ) AS ?eventEntity ) .
+  BIND ( fx:entity(?eventEntity, "/lyrics/", ?lineNumber ) AS ?lyricsEntity ) .
+	BIND (
+		IF ( ?step = "Rest" , mno:RestEvent , mno:Note ) AS ?eventType
+	) .
+	BIND ( xsd:int(?octave) AS ?octaveValue ) .
+}

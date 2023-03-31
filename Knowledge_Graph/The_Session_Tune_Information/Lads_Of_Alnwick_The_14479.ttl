@@ -1,0 +1,20 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:lads_of_alnwick_the_14479
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "1" ;
+        tu:has_a_key_mode         "major" ;
+        tu:has_a_metre_beat_type  "2" ;
+        tu:has_a_metre_beats      "3" ;
+        tu:has_a_rhythm           "three-two" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Lads Of Alnwick, The 14479" ;
+        tu:has_a_transcription    "romeflute" ;
+        tu:has_notes              "tune id: 1194; setting id: 14479" .

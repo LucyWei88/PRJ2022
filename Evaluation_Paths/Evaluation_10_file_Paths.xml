@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="filePath"/>
+    <variable name="fileName"/>
+  </head>
+  <results>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/2_AM_Turtle_Patrol_The_32882.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2_AM_Turtle_Patrol_The_32882</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/3_AM_In_Edradour_27196.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>3_AM_In_Edradour_27196</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/1st_August_14126.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>1st_August_14126</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/4_Minutes_33_Seconds_2399.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>4_Minutes_33_Seconds_2399</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/2D_Or_Not_2D_10543.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2D_Or_Not_2D_10543</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/2_Rivisjenkka_32371.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2_Rivisjenkka_32371</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/3rd_Beekeeper_The_41564.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>3rd_Beekeeper_The_41564</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/4_Minutes_33_Seconds_39267.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>4_Minutes_33_Seconds_39267</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/2_Rivisjenkka_31116.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>2_Rivisjenkka_31116</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_10/1st_August_935.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>1st_August_935</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

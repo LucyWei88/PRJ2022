@@ -1,0 +1,977 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/10> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d>
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/1>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/1> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/4> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/part/4> .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/8> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/blue_bells_reel_the_master_crowley_s_miss_patterson_s_%5bslippers%5d/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .

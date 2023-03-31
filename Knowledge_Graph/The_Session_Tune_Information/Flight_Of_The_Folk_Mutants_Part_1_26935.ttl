@@ -1,0 +1,20 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:flight_of_the_folk_mutants_part_1_26935
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "0" ;
+        tu:has_a_key_mode         "dorian" ;
+        tu:has_a_metre_beat_type  "8" ;
+        tu:has_a_metre_beats      "6" ;
+        tu:has_a_rhythm           "jig" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Flight Of The Folk Mutants Part 1 26935" ;
+        tu:has_a_transcription    "Rowan Folk" ;
+        tu:has_notes              "tune id: 14617; setting id: 26935" .

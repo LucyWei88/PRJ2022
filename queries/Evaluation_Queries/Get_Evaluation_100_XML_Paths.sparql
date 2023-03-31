@@ -1,0 +1,15 @@
+PREFIX fx: <http://sparql.xyz/facade-x/ns/>
+PREFIX fn: <http://jena.apache.org/ARQ/function#>
+# Query to extract the music xml files from the local directory.
+SELECT ?filePath ?fileName
+WHERE
+{
+  SERVICE<x-sparql-anything:>{
+  	fx:properties fx:location "./All_XML/Evaluation_XML/Evaluation_100".
+	[] a fx:root;
+       	   ?mProp ?filePath.
+
+    FILTER(CONTAINS(?filePath, ".xml")) .
+    BIND ( replace( replace ( ?filePath, ".*?\\/","" ), ".xml","") as ?fileName) .
+  }
+}

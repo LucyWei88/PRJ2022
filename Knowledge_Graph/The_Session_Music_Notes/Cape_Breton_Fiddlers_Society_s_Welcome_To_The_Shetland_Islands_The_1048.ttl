@@ -1,0 +1,2342 @@
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tss: <http://www.example.org/the_session/music_notes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/220>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/135>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/292>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/262>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/177>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/232>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/147>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/202>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/274>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/189>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/244>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/159>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/214>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/129>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/190>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/286>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/160>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/256>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/130>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/311>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/226>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/298>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/172>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/268>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/142>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/238>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/208>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/184>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/154>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/305>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/281>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/196>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/251>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/166>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/221>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/136>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/293>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/263>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/178>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/233>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/148>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/203>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/275>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/245>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/300>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/215>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/191>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/287>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/161>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/257>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/131>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/227>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/299>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/173>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/269>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/143>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/239>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/209>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/270>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/185>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/240>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/155>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/210>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/306>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/282>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/197>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/252>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/167>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/222>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/137>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/294>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/264>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/179>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/234>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/149>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/204>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/180>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/276>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/150>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/246>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/301>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/216>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/192>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/288>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/162>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/258>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/132>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/228>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/174>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/144>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/271>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/186>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/241>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/156>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/211>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/307>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/283>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/198>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/253>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/168>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/223>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/138>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/295>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/265>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/235>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/205>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/181>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/277>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/151>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/247>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/302>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/217>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/193>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/289>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/163>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/259>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/133>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/229>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/290>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/260>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/175>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/230>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/145>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/200>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/272>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/187>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/242>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/157>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/212>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/127>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/308>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/284>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/66>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/199>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/254>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/169>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/224>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/139>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/296>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/170>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/266>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/140>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/236>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/206>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "A3" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/182>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+tss:cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/278>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/152>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/248>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/303>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/218>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/194>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/164>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/134>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/291>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/37> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/261>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/33> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/176>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/23> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/231>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/146>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/18> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/201>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/273>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/188>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/243>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/31> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/158>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/213>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/27> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/128>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/309>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/285>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/255>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/5> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/310>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/225>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/29> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/297>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/38> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/171>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/22> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/267>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/34> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/141>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/237>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/30> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/207>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/26> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/183>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/24> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/279>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/35> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/153>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/19> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "C[1]4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/249>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/15> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/part/4> .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/304>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/39> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/219>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/28> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/280>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/36> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/195>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/25> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/250>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/32> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/event/165>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/the_session/music_notes/cape_breton_fiddlers_society_s_welcome_to_the_shetland_islands_the_1048/measure/21> ;
+        mno:hasOctave    "3" ;
+        mno:hasPitch     "B3" .

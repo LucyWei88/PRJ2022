@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="filePath"/>
+    <variable name="fileName"/>
+  </head>
+  <results>
+    <result>
+      <binding name="filePath">
+        <literal>file:///C:/Users/10203/Desktop/Project/Tune/./All_XML/Evaluation_XML/Evaluation_1/1st_August_935.xml</literal>
+      </binding>
+      <binding name="fileName">
+        <literal>1st_August_935</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix mu:     <http://mu.semte.ch/vocabularies/core/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix tss:    <http://www.example.org/the_session/tune_information/> .
+@prefix tu:     <http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+tss:spancil_hill_25615
+        rdf:type                  tu:Tune ;
+        tu:has_a_key_fifths       "1" ;
+        tu:has_a_key_mode         "dorian" ;
+        tu:has_a_metre_beat_type  "4" ;
+        tu:has_a_metre_beats      "3" ;
+        tu:has_a_rhythm           "waltz" ;
+        tu:has_a_source           "thesession.org" ;
+        tu:has_a_title            "Spancil Hill 25615" ;
+        tu:has_a_transcription    "BenH" ;
+        tu:has_lyrics             "Verse 2:\n'Twas on the 23rd of June, the day before the fair,\nWhen Ireland's sons and daughters and friends assembled there,\nThe young, the old, the brave, the bold, their duty to fulfil,\nAt the parish church near Clooney,a mile from Spancil Hill.\nVerse 3:\nI went to see me neighbours to see what they might say,\nThe old ones were all dead and gone, they young ones turning grey,\nI met with tailor Quigley, he's as bold as ever still,\nSure he used to make me britches when I lived in Spancil Hill.\nVerse 4:\nI paid a flying visit to my first and only love,\nShe's as fair as any lily and as gentle as a dove,\nShe through her arms around me, saying Johnny I love ye still,\nShe was Meg the farmers daughter and the pride of Spancil Hill." ;
+        tu:has_notes              "tune id: 1559; setting id: 25615" .

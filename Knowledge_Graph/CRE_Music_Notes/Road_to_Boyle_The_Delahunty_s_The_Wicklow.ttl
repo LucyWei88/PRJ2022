@@ -1,0 +1,966 @@
+@prefix cre: <http://www.example.org/cre/music_notes/> .
+@prefix fx:  <http://sparql.xyz/facade-x/ns/> .
+@prefix mno: <http://www.semanticweb.org/vvwan/ontologies/2022/11/MusicNote.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz: <http://sparql.xyz/facade-x/data/> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/71>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/43>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/15>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/84>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "B5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/56>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/28>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/97>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/69>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/104>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/117>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/50>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/22>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/91>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/63>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/35>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/6>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/76>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/48>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/111>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/89>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/124>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/70>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/109>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/42>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/14>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/83>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/9>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/55>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/27>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/96>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/68>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/103>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+cre:road_to_boyle_the_delahunty_s_the_wicklow
+        rdf:type      mno:Score ;
+        mno:contains  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/116>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/13>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/21>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/90>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/62>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/34>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/5>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/75>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/47>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/19>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/110>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/88>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/123>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/108>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/41>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/13>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/82>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/54>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/18>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/26>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/95>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/67>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/10> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/39>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/102>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/115>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/20>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/61>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/33>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/4>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/74>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/46>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/18>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/87>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/59>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/122>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/107>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/40>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/12>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/81>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/53>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/25>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/94>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/66>
+        rdf:type         mno:RestEvent ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/10> ;
+        mno:hasPitch     "Rest" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/38>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/9>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4>
+        rdf:type  mno:Part .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/101>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/79>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "F[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/1>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/114>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/60>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/3>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "3780" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/32>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/73>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/45>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/17>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/86>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/58>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/121>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/99>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/106>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/11>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/119>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/80>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/52>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C[1]5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/24>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/93>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/65>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/37>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/8>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "E4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/100>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/78>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/113>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/10>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/126>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "D4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/31>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "2520" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/2>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/1> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/72>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/11> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/44>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/16>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/85>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/13> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "A5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/57>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/29>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/120>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/98>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/105>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "G4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/10>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/3> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/118>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/17> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/51>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/8> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/15>
+        rdf:type     mno:Measure ;
+        mno:hasPart  <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/part/4> .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/23>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/4> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "E5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/92>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/14> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/64>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/9> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/36>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/6> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "A4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/7>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/2> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/77>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/12> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "G5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/49>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/7> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "B4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/112>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "840" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/16> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "C5" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/125>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/18> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/30>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/5> ;
+        mno:hasOctave    "4" ;
+        mno:hasPitch     "F[1]4" .
+
+<http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/event/1>
+        rdf:type         mno:Note ;
+        mno:hasDuration  "1260" ;
+        mno:hasMeasure   <http://www.example.org/cre/music_notes/road_to_boyle_the_delahunty_s_the_wicklow/measure/1> ;
+        mno:hasOctave    "5" ;
+        mno:hasPitch     "D5" .
