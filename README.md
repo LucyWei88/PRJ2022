@@ -51,15 +51,15 @@ My GitHub repository also has this guide separately:
    
 We will not discuss how to prepare the directory here.  
 Here are the commands also included in the replication guide:  
-1. Getting the lists of MusicXML files paths and names:
-      java -jar sparql-anything-0.8.1.jar -q queries/get_CRE_XML_Paths.sparql -o CRE_file_Paths.xml -f XML
+1. Getting the lists of MusicXML files paths and names:  
+      java -jar sparql-anything-0.8.1.jar -q queries/get_CRE_XML_Paths.sparql -o CRE_file_Paths.xml -f XML  
 
-      java -jar sparql-anything-0.8.1.jar -q queries/Get_The_Session_XML_Paths.sparql -o The_Session_file_Paths.xml -f XML
-2. Generating the knowledge graphs contain the general information of each tune:
-      java -jar sparql-anything-0.8.1.jar -q queries/CRE_Tune_Information.sparql --values CRE_file_Paths.xml -p "Knowledge_Graph/CRE_Tune_Information/?fileName.ttl" -f TTL
+      java -jar sparql-anything-0.8.1.jar -q queries/Get_The_Session_XML_Paths.sparql -o The_Session_file_Paths.xml -f XML  
+2. Generating the knowledge graphs contain the general information of each tune:  
+      java -jar sparql-anything-0.8.1.jar -q queries/CRE_Tune_Information.sparql --values CRE_file_Paths.xml -p "Knowledge_Graph/CRE_Tune_Information/?fileName.ttl" -f TTL  
 
-      java -jar sparql-anything-0.8.1.jar -q queries/The_Session_Tune_Information.sparql --values The_Session_file_Paths.xml -p "Knowledge_Graph/The_Session_Tune_Information/?fileName.ttl" -f TTL
-3. Generating the knowledge graphs contain the muisc codes of each tune:
-      java -jar sparql-anything-0.8.1.jar -q queries/CRE_Music_Notes.sparql --values CRE_file_Paths.xml -p "Knowledge_Graph/CRE_Music_Notes/?fileName.ttl" -f TTL
+      java -jar sparql-anything-0.8.1.jar -q queries/The_Session_Tune_Information.sparql --values The_Session_file_Paths.xml -p "Knowledge_Graph/The_Session_Tune_Information/?fileName.ttl" -f TTL  
+3. Generating the knowledge graphs contain the muisc codes of each tune:  
+      java -jar sparql-anything-0.8.1.jar -q queries/CRE_Music_Notes.sparql --values CRE_file_Paths.xml -p "Knowledge_Graph/CRE_Music_Notes/?fileName.ttl" -f TTL  
 
       java -jar sparql-anything-0.8.1.jar -q queries/The_Session_Music_Notes.sparql --values The_Session_file_Paths.xml -p "Knowledge_Graph/The_Session_Music_Notes/?fileName.ttl" -f TTL
