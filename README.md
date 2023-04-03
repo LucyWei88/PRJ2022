@@ -2,8 +2,7 @@
 # Author: Xiangyue Wei
 # Student Number: 20041328
 # Supervisor: Dr. Albert Merono Peuela
-# Project Title: 
-  Knowledge Graph generation from two Irish Tune Datasets with SPARQL Anything
+# Project Title: Knowledge Graph generation from two Irish Tune Datasets with SPARQL Anything
 # GitHub Repository Link: 
   https://github.com/LucyWei88/PRJ2022
 
