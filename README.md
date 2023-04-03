@@ -3,8 +3,8 @@
 # Student Number: 20041328
 # Supervisor: Dr. Albert Merono Peuela
 # Project Title: Knowledge Graph generation from two Irish Tune Datasets with SPARQL Anything
-# GitHub Repository Link: 
-  https://github.com/LucyWei88/PRJ2022
+# GitHub Repository Link:   
+https://github.com/LucyWei88/PRJ2022  
 
 # Output:
 78,800 Knowledge graphs generated from the CRE and The Session datasets.
@@ -12,7 +12,7 @@ The knowledge graphs contain the general information and music code from each tu
 Please notice, as the outputs of this project are too large to submit,
 please use the following links to get the generated knowledge graphs:
 
-  GitHub:
+  GitHub:  
      https://github.com/LucyWei88/PRJ2022/tree/main/Knowledge_Graph
      
   Zenodo(zip):
