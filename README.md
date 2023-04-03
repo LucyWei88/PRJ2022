@@ -39,11 +39,9 @@ Zenodo(zip):
 
 (Necessary) Cleaned MusicXML files, choose one of the followings:
 GitHub:
-
     https://github.com/LucyWei88/PRJ2022/tree/main/All_XML
     
 Zenodo(zip):
-
     https://zenodo.org/record/7792125#.ZCooF3bMK5c
 
 #Requirements
@@ -56,7 +54,6 @@ Zenodo(zip):
 # Replication Guide
 To replicate, there is a full replication guide in Appendix and Additional Material PDF submission.
 My GitHub repository also has this guide separately:
-
     https://github.com/LucyWei88/PRJ2022/blob/main/Replication_Guide.pdf
 We will not discuss how to prepare the directory here.
 Here are the commands also included in the replication guide:
