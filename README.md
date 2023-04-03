@@ -49,7 +49,7 @@ GitHub:
 Zenodo(zip):
     https://zenodo.org/record/7792125#.ZCooF3bMK5c
 
-#Requirements
+# Requirements
 1. requires Java >= 11 to be installed on the operating system
 2. SPARQL Anything Command-line Interface version 0.8.1
    
