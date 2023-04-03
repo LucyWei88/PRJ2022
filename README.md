@@ -47,6 +47,7 @@ Zenodo(zip):
 #Requirements
 1. requires Java >= 11 to be installed on the operating system
 2. SPARQL Anything Command-line Interface version 0.8.1
+   
    Download link:
    
    https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.8.1
@@ -55,6 +56,7 @@ Zenodo(zip):
 To replicate, there is a full replication guide in Appendix and Additional Material PDF submission.
 
 My GitHub repository also has this guide separately:
+
     https://github.com/LucyWei88/PRJ2022/blob/main/Replication_Guide.pdf
     
 We will not discuss how to prepare the directory here.
