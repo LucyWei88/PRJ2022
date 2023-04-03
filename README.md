@@ -15,7 +15,7 @@ please use the following links to get the generated knowledge graphs:
   GitHub:  
      https://github.com/LucyWei88/PRJ2022/tree/main/Knowledge_Graph
      
-  Zenodo(zip):
+  Zenodo(zip):  
      https://zenodo.org/record/7792131#.ZCoouHbMK5c
 
 # Links to datasets, including necessary and unnecessary:
