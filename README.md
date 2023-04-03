@@ -20,6 +20,7 @@ please use the following links to get the generated knowledge graphs:
 
 # Links to datasets, including necessary and unnecessary:
 (Unnecessary) Original ABC datasets:
+
 The CRE dataset:
     https://github.com/polifonia-project/folk_ngram_analysis/tree/master/cre_corpus/abc
     
@@ -27,9 +28,11 @@ The Session dataset:
     https://github.com/polifonia-project/folk_ngram_analysis/tree/master/thesession_corpus/abc
 
 (Unnecessary) Altered ABC datasets:
+
     https://github.com/LucyWei88/PRJ2022/tree/main/Altered_ABC
 
 (Unnecessary) Original MusicXML files:
+
 GitHub:
     https://github.com/LucyWei88/PRJ2022/tree/main/All_XML_Original
     
@@ -37,6 +40,7 @@ Zenodo(zip):
     https://zenodo.org/record/7792129#.ZConhHbMK5c
 
 (Necessary) Cleaned MusicXML files, choose one of the followings:
+
 GitHub:
     https://github.com/LucyWei88/PRJ2022/tree/main/All_XML
     
