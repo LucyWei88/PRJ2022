@@ -26,9 +26,11 @@ The CRE dataset:
     
 The Session dataset:
     https://github.com/polifonia-project/folk_ngram_analysis/tree/master/thesession_corpus/abc
+    
 
 (Unnecessary) Altered ABC datasets:
     https://github.com/LucyWei88/PRJ2022/tree/main/Altered_ABC
+    
 
 (Unnecessary) Original MusicXML files:
 
@@ -37,6 +39,7 @@ GitHub:
     
 Zenodo(zip):
     https://zenodo.org/record/7792129#.ZConhHbMK5c
+
 
 (Necessary) Cleaned MusicXML files, choose one of the followings:
 
