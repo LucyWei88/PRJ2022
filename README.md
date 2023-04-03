@@ -16,23 +16,23 @@ please use the following links to get the generated knowledge graphs:
   Zenodo(zip):  
      https://zenodo.org/record/7792131#.ZCoouHbMK5c  
 
-# Links to datasets, including necessary and unnecessary:
-(Unnecessary) Original ABC datasets:  
+# Links to datasets, including optional and required:
+(Optional) Original ABC datasets:  
 The CRE dataset:  
     https://github.com/polifonia-project/folk_ngram_analysis/tree/master/cre_corpus/abc  
 The Session dataset:  
     https://github.com/polifonia-project/folk_ngram_analysis/tree/master/thesession_corpus/abc  
-    
-(Unnecessary) Altered ABC datasets:  
+
+(Optional) Altered ABC datasets:  
     https://github.com/LucyWei88/PRJ2022/tree/main/Altered_ABC  
-    
-(Unnecessary) Original MusicXML files:  
+
+(Optional) Original MusicXML files:  
 GitHub:  
     https://github.com/LucyWei88/PRJ2022/tree/main/All_XML_Original  
 Zenodo(zip):  
     https://zenodo.org/record/7792129#.ZConhHbMK5c  
 
-(Necessary) Cleaned MusicXML files, choose one of the followings:  
+(Required) Cleaned MusicXML files, choose one of the followings:  
 GitHub:  
     https://github.com/LucyWei88/PRJ2022/tree/main/All_XML  
 Zenodo(zip):  
@@ -48,7 +48,7 @@ Zenodo(zip):
 To replicate, there is a full replication guide in Appendix and Additional Material PDF submission.  
 My GitHub repository also has this guide separately:  
     https://github.com/LucyWei88/PRJ2022/blob/main/Replication_Guide.pdf  
-   
+
 We will not discuss how to prepare the directory here.  
 Here are the commands also included in the replication guide:  
 1. Getting the lists of MusicXML files paths and names:  
