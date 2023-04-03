@@ -28,7 +28,6 @@ The Session dataset:
     https://github.com/polifonia-project/folk_ngram_analysis/tree/master/thesession_corpus/abc
 
 (Unnecessary) Altered ABC datasets:
-
     https://github.com/LucyWei88/PRJ2022/tree/main/Altered_ABC
 
 (Unnecessary) Original MusicXML files:
