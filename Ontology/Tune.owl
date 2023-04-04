@@ -1,1635 +1,1010 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune"
      xml:base="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune">
-    <Prefix name="" IRI="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This is an ontology about tune。</Literal>
-    </Annotation>
-    <Declaration>
-        <Class IRI="#Book"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Composer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Key-Fifths"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Key-Mode"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lyrics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Metre-Beat-Type"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Metre-Beats"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Music_Notes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Notes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Printed_tune_book"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Rhythm"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Source"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tempo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Text"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Transcription"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tune"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tune_Information"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tune_Title"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Unit_Note_Length"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#are_lyrics_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#are_notes_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_Music_Code"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_composer"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_key_fifths"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_key_mode"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_metre_beat_type"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_metre_beats"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_printed_tune_book"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_rhythm"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_source"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_tempo"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_title"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a_transcription"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_information"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_lyrics"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_notes"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_unit_note_length"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_composer_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_file_url_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_key_fifth_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_key_mode_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_metre_beat_type_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_metre_beats_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_printed_tune_book_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_rhythm_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_source_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_tempo_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_title_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_transcription_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a_unit_note_length_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_information_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_music_code_of"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Book_Name"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Composer_Name"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Key_Fifths_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Key_Mode_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Lyrics_Content"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Metre_Beat_Type_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Metre_Beats_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Music_Code_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Notes_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Person_Name"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Printed_tune_book_name"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Rhythm_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Source_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Tempo_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Text_Content"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Transcription_Content"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Tune_Title_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Unit_Note_Length_Value"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Composer_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Harry_Potter"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Key_Fifths_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Key_Mode_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Lucy_Wei"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Lyrics_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Metre_Beat_Type_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Metre_Beats_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Music_Code_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Notes_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Printed_Tune_Book_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rhythm_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Source_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Tempo_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Text_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Title_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Transcription_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Tune_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Tune_Information_Example"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Unit_Note_Length_Example"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#Composer"/>
-        <Class IRI="#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Composer"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Key-Fifths"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Key-Mode"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Lyrics"/>
-        <Class IRI="#Text"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Lyrics"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Metre-Beat-Type"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Metre-Beats"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Music_Notes"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Notes"/>
-        <Class IRI="#Text"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Notes"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Printed_tune_book"/>
-        <Class IRI="#Book"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Printed_tune_book"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Rhythm"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Source"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tempo"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Transcription"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tune_Title"/>
-        <Class IRI="#Text"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tune_Title"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Unit_Note_Length"/>
-        <Class IRI="#Tune_Information"/>
-    </SubClassOf>
-    <ClassAssertion>
-        <Class IRI="#Composer"/>
-        <NamedIndividual IRI="#Composer_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Book"/>
-        <NamedIndividual IRI="#Harry_Potter"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Key-Fifths"/>
-        <NamedIndividual IRI="#Key_Fifths_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Key-Mode"/>
-        <NamedIndividual IRI="#Key_Mode_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Person"/>
-        <NamedIndividual IRI="#Lucy_Wei"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Lyrics"/>
-        <NamedIndividual IRI="#Lyrics_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Metre-Beat-Type"/>
-        <NamedIndividual IRI="#Metre_Beat_Type_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Metre-Beats"/>
-        <NamedIndividual IRI="#Metre_Beats_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Music_Notes"/>
-        <NamedIndividual IRI="#Music_Code_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Notes"/>
-        <NamedIndividual IRI="#Notes_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Printed_tune_book"/>
-        <NamedIndividual IRI="#Printed_Tune_Book_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhythm"/>
-        <NamedIndividual IRI="#Rhythm_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Source"/>
-        <NamedIndividual IRI="#Source_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tempo"/>
-        <NamedIndividual IRI="#Tempo_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Text"/>
-        <NamedIndividual IRI="#Text_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tune_Title"/>
-        <NamedIndividual IRI="#Title_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Transcription"/>
-        <NamedIndividual IRI="#Transcription_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tune"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tune_Information"/>
-        <NamedIndividual IRI="#Tune_Information_Example"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Unit_Note_Length"/>
-        <NamedIndividual IRI="#Unit_Note_Length_Example"/>
-    </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_Music_Code"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Music_Code_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_composer"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Composer_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_key_fifths"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Key_Fifths_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_metre_beats"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Metre_Beats_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_printed_tune_book"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Printed_Tune_Book_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_rhythm"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Rhythm_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_source"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Source_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_tempo"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Tempo_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_title"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Title_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_a_transcription"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Transcription_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_information"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Tune_Information_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_lyrics"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Lyrics_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_notes"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Notes_Example"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_unit_note_length"/>
-        <NamedIndividual IRI="#Tune_Example"/>
-        <NamedIndividual IRI="#Unit_Note_Length_Example"/>
-    </ObjectPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Composer_Name"/>
-        <NamedIndividual IRI="#Composer_Example"/>
-        <Literal>Not.A.Real.Composer</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Book_Name"/>
-        <NamedIndividual IRI="#Harry_Potter"/>
-        <Literal>Harry Potter</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Key_Fifths_Value"/>
-        <NamedIndividual IRI="#Key_Fifths_Example"/>
-        <Literal>1</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Key_Mode_Value"/>
-        <NamedIndividual IRI="#Key_Mode_Example"/>
-        <Literal>major</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Person_Name"/>
-        <NamedIndividual IRI="#Lucy_Wei"/>
-        <Literal>Lucy Wei</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Lyrics_Content"/>
-        <NamedIndividual IRI="#Lyrics_Example"/>
-        <Literal>1.~O_ Ais-ling Gheal_ do shlad trim_ néal__ mé
-2.~Agus go rabhas i ngleann_ cois abhann i_ m&apos;ao-__nar</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Metre_Beat_Type_Value"/>
-        <NamedIndividual IRI="#Metre_Beat_Type_Example"/>
-        <Literal>8</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Metre_Beats_Value"/>
-        <NamedIndividual IRI="#Metre_Beats_Example"/>
-        <Literal>6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Music_Code_Value"/>
-        <NamedIndividual IRI="#Music_Code_Example"/>
-        <Literal>a3b cd3 a2b2c2d2</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Notes_Value"/>
-        <NamedIndividual IRI="#Notes_Example"/>
-        <Literal>see fake tune book</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Printed_tune_book_name"/>
-        <NamedIndividual IRI="#Printed_Tune_Book_Example"/>
-        <Literal>fake tune book</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Rhythm_Value"/>
-        <NamedIndividual IRI="#Rhythm_Example"/>
-        <Literal>reel</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Source_Value"/>
-        <NamedIndividual IRI="#Source_Example"/>
-        <Literal>collected in a fake circumstance</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Tempo_Value"/>
-        <NamedIndividual IRI="#Tempo_Example"/>
-        <Literal>&quot;allegro&quot; 1/4=120</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Text_Content"/>
-        <NamedIndividual IRI="#Text_Example"/>
-        <Literal>This is a text example.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Tune_Title_Value"/>
-        <NamedIndividual IRI="#Title_Example"/>
-        <Literal>Fake Title No.888</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Transcription_Content"/>
-        <NamedIndividual IRI="#Transcription_Example"/>
-        <Literal>Fake Transcription, &lt;F.T@mail.com&gt;</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Unit_Note_Length_Value"/>
-        <NamedIndividual IRI="#Unit_Note_Length_Example"/>
-        <Literal>1/8</Literal>
-    </DataPropertyAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#are_lyrics_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#are_notes_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_Music_Code"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_composer"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_key_fifths"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_key_mode"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_metre_beat_type"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_metre_beats"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_printed_tune_book"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_rhythm"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_source"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_tempo"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_title"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a_transcription"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_lyrics"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_notes"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_unit_note_length"/>
-        <ObjectProperty IRI="#has_information"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_composer_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_file_url_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_key_fifth_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_key_mode_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_metre_beat_type_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_metre_beats_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_printed_tune_book_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_rhythm_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_source_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_tempo_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_title_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_transcription_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a_unit_note_length_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_information_of"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_music_code_of"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#are_lyrics_of"/>
-        <ObjectProperty IRI="#has_lyrics"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#are_notes_of"/>
-        <ObjectProperty IRI="#has_notes"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_Music_Code"/>
-        <ObjectProperty IRI="#is_music_code_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_composer"/>
-        <ObjectProperty IRI="#is_a_composer_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_key_fifths"/>
-        <ObjectProperty IRI="#is_a_key_fifth_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_key_mode"/>
-        <ObjectProperty IRI="#is_a_key_mode_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_metre_beat_type"/>
-        <ObjectProperty IRI="#is_a_metre_beat_type_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_metre_beats"/>
-        <ObjectProperty IRI="#is_a_metre_beats_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_printed_tune_book"/>
-        <ObjectProperty IRI="#is_a_printed_tune_book_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_rhythm"/>
-        <ObjectProperty IRI="#is_a_rhythm_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_source"/>
-        <ObjectProperty IRI="#is_a_source_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_tempo"/>
-        <ObjectProperty IRI="#is_a_tempo_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_title"/>
-        <ObjectProperty IRI="#is_a_title_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_a_transcription"/>
-        <ObjectProperty IRI="#is_a_transcription_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_information"/>
-        <ObjectProperty IRI="#is_information_of"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_unit_note_length"/>
-        <ObjectProperty IRI="#is_a_unit_note_length_of"/>
-    </InverseObjectProperties>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#has_a_key_fifths"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#has_a_metre_beats"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#has_a_title"/>
-    </FunctionalObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#are_lyrics_of"/>
-        <Class IRI="#Lyrics"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#are_notes_of"/>
-        <Class IRI="#Notes"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_Music_Code"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_composer"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_key_fifths"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_key_mode"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_metre_beat_type"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_metre_beats"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_printed_tune_book"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_rhythm"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_source"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_tempo"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_title"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_a_transcription"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_information"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_lyrics"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_notes"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_unit_note_length"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_composer_of"/>
-        <Class IRI="#Composer"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_key_fifth_of"/>
-        <Class IRI="#Key-Fifths"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_key_mode_of"/>
-        <Class IRI="#Key-Mode"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_metre_beat_type_of"/>
-        <Class IRI="#Metre-Beat-Type"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_metre_beats_of"/>
-        <Class IRI="#Metre-Beats"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_printed_tune_book_of"/>
-        <Class IRI="#Printed_tune_book"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_rhythm_of"/>
-        <Class IRI="#Rhythm"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_source_of"/>
-        <Class IRI="#Source"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_tempo_of"/>
-        <Class IRI="#Tempo"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_title_of"/>
-        <Class IRI="#Tune_Title"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_transcription_of"/>
-        <Class IRI="#Transcription"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_a_unit_note_length_of"/>
-        <Class IRI="#Unit_Note_Length"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_information_of"/>
-        <Class IRI="#Tune_Information"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#is_music_code_of"/>
-        <Class IRI="#Music_Notes"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#are_lyrics_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#are_notes_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_Music_Code"/>
-        <Class IRI="#Music_Notes"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_composer"/>
-        <Class IRI="#Composer"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_key_fifths"/>
-        <Class IRI="#Key-Fifths"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_key_mode"/>
-        <Class IRI="#Key-Mode"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_metre_beat_type"/>
-        <Class IRI="#Metre-Beat-Type"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_metre_beats"/>
-        <Class IRI="#Metre-Beats"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_printed_tune_book"/>
-        <Class IRI="#Printed_tune_book"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_rhythm"/>
-        <Class IRI="#Rhythm"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_source"/>
-        <Class IRI="#Source"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_tempo"/>
-        <Class IRI="#Tempo"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_title"/>
-        <Class IRI="#Tune_Title"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_a_transcription"/>
-        <Class IRI="#Transcription"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_information"/>
-        <Class IRI="#Tune_Information"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_lyrics"/>
-        <Class IRI="#Lyrics"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_notes"/>
-        <Class IRI="#Notes"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_unit_note_length"/>
-        <Class IRI="#Unit_Note_Length"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_composer_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_file_url_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_key_fifth_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_key_mode_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_metre_beat_type_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_metre_beats_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_printed_tune_book_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_rhythm_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_source_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_tempo_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_title_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_transcription_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_a_unit_note_length_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_information_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_music_code_of"/>
-        <Class IRI="#Tune"/>
-    </ObjectPropertyRange>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Book_Name"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Composer_Name"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Key_Fifths_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Key_Mode_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Lyrics_Content"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Metre_Beat_Type_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Metre_Beats_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Music_Code_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Notes_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Person_Name"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Printed_tune_book_name"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Rhythm_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Source_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Tempo_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Text_Content"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Transcription_Content"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Tune_Title_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Unit_Note_Length_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Book_Name"/>
-        <Class IRI="#Book"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Composer_Name"/>
-        <Class IRI="#Composer"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Key_Fifths_Value"/>
-        <Class IRI="#Key-Fifths"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Key_Mode_Value"/>
-        <Class IRI="#Key-Mode"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Lyrics_Content"/>
-        <Class IRI="#Lyrics"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Metre_Beat_Type_Value"/>
-        <Class IRI="#Metre-Beat-Type"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Metre_Beats_Value"/>
-        <Class IRI="#Metre-Beats"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Music_Code_Value"/>
-        <Class IRI="#Music_Notes"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Notes_Value"/>
-        <Class IRI="#Notes"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Person_Name"/>
-        <Class IRI="#Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Printed_tune_book_name"/>
-        <Class IRI="#Printed_tune_book"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Rhythm_Value"/>
-        <Class IRI="#Rhythm"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Source_Value"/>
-        <Class IRI="#Source"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tempo_Value"/>
-        <Class IRI="#Tempo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Text_Content"/>
-        <Class IRI="#Text"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transcription_Content"/>
-        <Class IRI="#Transcription"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tune_Title_Value"/>
-        <Class IRI="#Tune_Title"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Unit_Note_Length_Value"/>
-        <Class IRI="#Unit_Note_Length"/>
-    </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="#Book_Name"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Composer_Name"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Key_Fifths_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Key_Mode_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Lyrics_Content"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Metre_Beat_Type_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Metre_Beats_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Music_Code_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Notes_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Person_Name"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Printed_tune_book_name"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Rhythm_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Source_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Tempo_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Text_Content"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Transcription_Content"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Tune_Title_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Unit_Note_Length_Value"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Book</IRI>
-        <Literal xml:lang="en">This class denotes the book.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Book</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Book</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Book</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q571</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Book_Name</IRI>
-        <Literal>indicates the name of a book</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Composer</IRI>
-        <Literal xml:lang="en">This class denotes the tune composer.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Composer</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Composer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Composer</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q36834</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Composer_Name</IRI>
-        <Literal>indicates the name of a composer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Key-Fifths</IRI>
-        <Literal xml:lang="en">This class denotes the number of flats or sharps in a traditional key signature of a tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Key-Fifths</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Key_(music)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Key-Fifths</IRI>
-        <Literal xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fifths/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Key-Fifths</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q534932</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Key-Mode</IRI>
-        <Literal xml:lang="en">This class denotes major/minor and other mode distinctions of a tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Key-Mode</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Key_(music)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Key-Mode</IRI>
-        <Literal xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/mode/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Key-Mode</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q534932</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Key_Fifths_Value</IRI>
-        <Literal xml:lang="en">indicates the value of tune key in fifths notaion.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Lyrics</IRI>
-        <Literal xml:lang="en">This class denotes the lyrics.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Lyrics</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Lyrics</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Lyrics</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q602446</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Lyrics_Content</IRI>
-        <Literal xml:lang="en">indicates the content of tune lyrics</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Metre-Beat-Type</IRI>
-        <Literal xml:lang="en">This class denotes the beat unit of the tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Metre-Beat-Type</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Metre_(music)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Metre-Beat-Type</IRI>
-        <Literal xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/beat-type/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Metre-Beats</IRI>
-        <Literal xml:lang="en">This class denotes the number of beats of the tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Metre-Beats</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Metre_(music)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Metre-Beats</IRI>
-        <Literal xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/beats/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Metre_Beats_Value</IRI>
-        <Literal xml:lang="en">indicates the value of tune metre.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Music_Code_Value</IRI>
-        <Literal xml:lang="en">indicates the value of tune music code</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Music_Notes</IRI>
-        <Literal xml:lang="en">This class denotes the music notes of the tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Music_Notes</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Musical_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Music_Notes</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q263478</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Notes</IRI>
-        <Literal xml:lang="en">This class denotes the notes.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Notes</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Note-taking</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Notes_Value</IRI>
-        <Literal xml:lang="en">indicates the content of tune notes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Person</IRI>
-        <Literal xml:lang="en">This class denotes the person.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Person</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Person</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Person</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q215627</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Person_Name</IRI>
-        <Literal>indicates the name of a person</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Printed_tune_book</IRI>
-        <Literal xml:lang="en">This class denotes printed tune book.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Printed_tune_book_name</IRI>
-        <Literal>indicates the name of a printed tune book</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Rhythm</IRI>
-        <Literal xml:lang="en">This class denotes the tune rhythm.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Rhythm</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Rhythm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Rhythm_Value</IRI>
-        <Literal xml:lang="en">indicates the value of tune rhythm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Source</IRI>
-        <Literal xml:lang="en">This class denotes the source of the tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Source_Value</IRI>
-        <Literal xml:lang="en">indicates the circumstances under which a tune was collected or learned</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tempo</IRI>
-        <Literal xml:lang="en">This class denotes the tune tempo.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Tempo</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Tempo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Tempo</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q189214</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tempo_Value</IRI>
-        <Literal xml:lang="en">indicates the value of tune tempo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Text</IRI>
-        <Literal xml:lang="en">This class denotes the text.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Text</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Text_(literary_theory)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Text</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q234460</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Text_Content</IRI>
-        <Literal>indicates the content of a text</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Transcription</IRI>
-        <Literal xml:lang="en">This class denotes the tune transcription.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Transcription</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Transcription_(music)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Transcription</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q1458203</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Transcription_Content</IRI>
-        <Literal xml:lang="en">indicates the name(s) of the person(s) who transcribed the tune into abc, and possibly some contact information</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tune</IRI>
-        <Literal xml:lang="en">This class denotes the tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Tune</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Folk_music#Tune</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Tune</IRI>
-        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Song</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#Tune</IRI>
-        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q2254667</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tune_Information</IRI>
-        <Literal xml:lang="en">This class denotes tune information.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tune_Title</IRI>
-        <Literal xml:lang="en">This class denotes the tune title.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Tune_Title_Value</IRI>
-        <Literal>indicates the value of tune title</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Unit_Note_Length</IRI>
-        <Literal xml:lang="en">This class denotes the unit note length of a tune.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Unit_Note_Length_Value</IRI>
-        <Literal xml:lang="en">indicates the value of tune unit note length value</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#has_a_title</IRI>
-        <Literal xml:lang="en">Each tune must have a title.</Literal>
-    </AnnotationAssertion>
-</Ontology>
+     xmlns:Tune="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune">
+        <rdfs:comment xml:lang="en">This is an ontology about tune.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#are_lyrics_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#are_lyrics_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_lyrics"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#are_notes_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#are_notes_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_notes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_Music_Code -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_Music_Code">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_music_code_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Notes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_composer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_composer">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_composer_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_key_fifths -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_key_fifths">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_key_fifth_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Fifths"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_key_mode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_key_mode">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_key_mode_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Mode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_metre_beat_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_metre_beat_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_metre_beat_type_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beat-Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_metre_beats -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_metre_beats">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_metre_beats_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beats"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_printed_tune_book -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_printed_tune_book">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_printed_tune_book_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_rhythm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_rhythm">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_rhythm_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_source -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_source">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_source_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_tempo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_tempo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_tempo_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_title -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_title">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_title_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title"/>
+        <rdfs:comment xml:lang="en">Each tune must have a title.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_transcription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_a_transcription">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_transcription_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_lyrics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_lyrics">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_notes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_notes">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_unit_note_length -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_unit_note_length">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#has_information"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_unit_note_length_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_composer_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_composer_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_file_url_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_file_url_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_key_fifth_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_key_fifth_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Fifths"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_key_mode_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_key_mode_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Mode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_metre_beat_type_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_metre_beat_type_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beat-Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_metre_beats_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_metre_beats_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beats"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_printed_tune_book_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_printed_tune_book_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_rhythm_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_rhythm_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_source_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_source_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_tempo_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_tempo_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_title_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_title_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_transcription_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_transcription_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_unit_note_length_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_a_unit_note_length_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_music_code_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_music_code_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#is_information_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Notes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Book_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Book_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>indicates the name of a book</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>indicates the name of a composer</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Fifths_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Fifths_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Fifths"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the value of tune key in fifths notaion.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Mode_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Mode_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Mode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics_Content -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics_Content">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the content of tune lyrics</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beat_Type_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beat_Type_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beat-Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beats_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beats_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beats"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the value of tune metre.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Code_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Code_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Notes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the value of tune music code</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the content of tune notes</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Person_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Person_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>indicates the name of a person</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>indicates the name of a printed tune book</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the value of tune rhythm</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the circumstances under which a tune was collected or learned</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the value of tune tempo</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text_Content -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text_Content">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>indicates the content of a text</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription_Content -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription_Content">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the name(s) of the person(s) who transcribed the tune into abc, and possibly some contact information</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>indicates the value of tune title</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length_Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length_Value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">indicates the value of tune unit note length value</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Book">
+        <rdfs:comment xml:lang="en">This class denotes the book.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Book</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q571</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the tune composer.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Composer</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q36834</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Fifths -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Fifths">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the number of flats or sharps in a traditional key signature of a tune.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Key_(music)</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fifths/</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q534932</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Mode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes major/minor and other mode distinctions of a tune.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Key_(music)</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/mode/</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q534932</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the lyrics.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Lyrics</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q602446</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beat-Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beat-Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the beat unit of the tune.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Metre_(music)</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/beat-type/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the number of beats of the tune.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Metre_(music)</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/beats/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Notes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Notes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the music notes of the tune.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Musical_note</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q263478</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the notes.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Note-taking</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Person">
+        <rdfs:comment xml:lang="en">This class denotes the person.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Person</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q215627</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Book"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes printed tune book.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the tune rhythm.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Rhythm</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the source of the tune.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the tune tempo.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Tempo</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q189214</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text">
+        <rdfs:comment xml:lang="en">This class denotes the text.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Text_(literary_theory)</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q234460</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the tune transcription.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Transcription_(music)</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q1458203</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune">
+        <rdfs:comment xml:lang="en">This class denotes the tune.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Folk_music#Tune</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Song</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.wikidata.org/wiki/Q2254667</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information">
+        <rdfs:comment xml:lang="en">This class denotes tune information.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the tune title.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+        <rdfs:comment xml:lang="en">This class denotes the unit note length of a tune.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer"/>
+        <Tune:Composer_Name>Not.A.Real.Composer</Tune:Composer_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Harry_Potter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Harry_Potter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Book"/>
+        <Tune:Book_Name>Harry Potter</Tune:Book_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Fifths_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Fifths_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Fifths"/>
+        <Tune:Key_Fifths_Value>1</Tune:Key_Fifths_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Mode_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Mode_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key-Mode"/>
+        <Tune:Key_Mode_Value>major</Tune:Key_Mode_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lucy_Wei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lucy_Wei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Person"/>
+        <Tune:Person_Name>Lucy Wei</Tune:Person_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics"/>
+        <Tune:Lyrics_Content>1.~O_ Ais-ling Gheal_ do shlad trim_ néal__ mé
+2.~Agus go rabhas i ngleann_ cois abhann i_ m&apos;ao-__nar</Tune:Lyrics_Content>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beat_Type_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beat_Type_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beat-Type"/>
+        <Tune:Metre_Beat_Type_Value>8</Tune:Metre_Beat_Type_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beats_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beats_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre-Beats"/>
+        <Tune:Metre_Beats_Value>6</Tune:Metre_Beats_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Code_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Code_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Notes"/>
+        <Tune:Music_Code_Value>a3b cd3 a2b2c2d2</Tune:Music_Code_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes"/>
+        <Tune:Notes_Value>see fake tune book</Tune:Notes_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_Tune_Book_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_Tune_Book_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_tune_book"/>
+        <Tune:Printed_tune_book_name>fake tune book</Tune:Printed_tune_book_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm"/>
+        <Tune:Rhythm_Value>reel</Tune:Rhythm_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source"/>
+        <Tune:Source_Value>collected in a fake circumstance</Tune:Source_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo"/>
+        <Tune:Tempo_Value>&quot;allegro&quot; 1/4=120</Tune:Tempo_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Text"/>
+        <Tune:Text_Content>This is a text example.</Tune:Text_Content>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Title_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Title_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Title"/>
+        <Tune:Tune_Title_Value>Fake Title No.888</Tune:Tune_Title_Value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription"/>
+        <Tune:Transcription_Content>Fake Transcription, &lt;F.T@mail.com&gt;</Tune:Transcription_Content>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune"/>
+        <Tune:has_Music_Code rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Music_Code_Example"/>
+        <Tune:has_a_composer rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Composer_Example"/>
+        <Tune:has_a_key_fifths rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Key_Fifths_Example"/>
+        <Tune:has_a_metre_beats rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Metre_Beats_Example"/>
+        <Tune:has_a_printed_tune_book rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Printed_Tune_Book_Example"/>
+        <Tune:has_a_rhythm rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Rhythm_Example"/>
+        <Tune:has_a_source rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Source_Example"/>
+        <Tune:has_a_tempo rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tempo_Example"/>
+        <Tune:has_a_title rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Title_Example"/>
+        <Tune:has_a_transcription rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Transcription_Example"/>
+        <Tune:has_information rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information_Example"/>
+        <Tune:has_lyrics rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics_Example"/>
+        <Tune:has_notes rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Notes_Example"/>
+        <Tune:has_unit_note_length rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length_Example"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Tune_Information"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length_Example -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length_Example">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Unit_Note_Length"/>
+        <Tune:Unit_Note_Length_Value>1/8</Tune:Unit_Note_Length_Value>
+    </owl:NamedIndividual>
+</rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
