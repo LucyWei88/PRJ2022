@@ -861,8 +861,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics_Example">
         <rdf:type rdf:resource="http://www.semanticweb.org/vvwan/ontologies/2022/11/Tune#Lyrics"/>
-        <Tune:Lyrics_Content>1.~O_ Ais-ling Gheal_ do shlad trim_ néal__ mé
-2.~Agus go rabhas i ngleann_ cois abhann i_ m&apos;ao-__nar</Tune:Lyrics_Content>
+        <Tune:Lyrics_Content>2.~Agus go rabhas i ngleann_ cois abhann i_ m&apos;ao-__nar</Tune:Lyrics_Content>
     </owl:NamedIndividual>
     
 

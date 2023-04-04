@@ -24,12 +24,11 @@
         <dc:description xml:lang="en">Music Notation Ontology.</dc:description>
         <dc:description xml:lang="fr">Ontologie de la notation musicale.</dc:description>
         <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-03</dc:issued>
-        <dc:publisher rdf:resource="http://fr.dbpedia.org/resource/Conservatoire_national_des_arts_et_métiers"/>
         <dc:rights>Copyright 2016, CNAM</dc:rights>
         <dc:title xml:lang="en">Music Notation Ontology</dc:title>
         <vann:preferredNamespacePrefix>MusicNote</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="http://cedric.cnam.fr/isid/ontologies/MusicNote.owl#"/>
-        <rdfs:comment xml:lang="en">This ontology is based on [Music Notation Ontology] by [Fayçal Hamdi] and [Samira Si-said Cherfi].
+        <rdfs:comment xml:lang="en">This ontology is based on [Music Notation Ontology] by [Hamdi.F] and [Samira Si-said Cherfi].
 [http://cedric.cnam.fr/isid/ontologies/MusicNote.owl#]
 The IRI of this altered ontology was changed to avoid any confusion.
 This ontology was removed and added a few properties and classes to make it fitter to the datasets (CRE and The Session).
