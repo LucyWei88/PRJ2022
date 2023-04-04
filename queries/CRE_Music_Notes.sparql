@@ -1,3 +1,7 @@
+# This code is based on [SPARQL-Anything MusicXML showcases] by [Marco Ratta] and [Enrico Daga]
+# [https://github.com/SPARQL-Anything/showcase-musicxml/blob/main/queries/populateOntology.sparql]
+# Changed a few properties names to ensure consistency with other SPARQL files.
+
 PREFIX fx: <http://sparql.xyz/facade-x/ns/>
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

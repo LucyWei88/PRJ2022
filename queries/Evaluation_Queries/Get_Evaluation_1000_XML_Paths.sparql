@@ -1,3 +1,7 @@
+# This code is based on [SPARQL-Anything MusicXML showcases] by [Marco Ratta] and [Enrico Daga]
+# [https://github.com/SPARQL-Anything/showcase-musicxml/blob/main/queries/getXMLPaths.sparql]
+# The only change is in line 11, the location of the file
+
 PREFIX fx: <http://sparql.xyz/facade-x/ns/>
 PREFIX fn: <http://jena.apache.org/ARQ/function#>
 # Query to extract the music xml files from the local directory.
