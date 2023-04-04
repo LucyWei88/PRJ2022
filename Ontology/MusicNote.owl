@@ -29,6 +29,11 @@
         <dc:title xml:lang="en">Music Notation Ontology</dc:title>
         <vann:preferredNamespacePrefix>MusicNote</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="http://cedric.cnam.fr/isid/ontologies/MusicNote.owl#"/>
+        <rdfs:comment xml:lang="en">This ontology is based on [Music Notation Ontology] by [Fayçal Hamdi] and [Samira Si-said Cherfi].
+[http://cedric.cnam.fr/isid/ontologies/MusicNote.owl#]
+The IRI of this altered ontology was changed to avoid any confusion.
+This ontology was removed and added a few properties and classes to make it fitter to the datasets (CRE and The Session).
+All the other annotations of this ontology remain the same to credit the original.</rdfs:comment>
         <owl:versionInfo>Version 1.0 - 2016-11-03</owl:versionInfo>
     </owl:Ontology>
     
