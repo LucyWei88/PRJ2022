@@ -52,7 +52,7 @@ My GitHub repository also has this guide separately:
 We will not discuss how to prepare the directory here.  
 Here are the commands also included in the replication guide:  
 1. Getting the lists of MusicXML files paths and names:  
-      java -jar sparql-anything-0.8.1.jar -q queries/get_CRE_XML_Paths.sparql -o CRE_file_Paths.xml -f XML  
+      java -jar sparql-anything-0.8.1.jar -q queries/Get_CRE_XML_Paths.sparql -o CRE_file_Paths.xml -f XML    
 
       java -jar sparql-anything-0.8.1.jar -q queries/Get_The_Session_XML_Paths.sparql -o The_Session_file_Paths.xml -f XML  
 2. Generating the knowledge graphs contain the general information of each tune:  
