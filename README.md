@@ -50,6 +50,12 @@ My GitHub repository also has this guide separately:
     https://github.com/LucyWei88/PRJ2022/blob/main/Replication_Guide.pdf  
 
 We will not discuss how to prepare the directory here.  
+The replication guide is written for Windows operating system.  
+There might be some undetected error on other different operating systems.
+Please notice, there might be a iteration failed in Command 3 and 5.  
+This error is about file name too long, shown in a test in Bash.  
+But in PowerShell on Windows, No error detected.  
+
 Here are the commands also included in the replication guide:  
 1. Getting the lists of MusicXML files paths and names:  
       java -jar sparql-anything-0.8.1.jar -q queries/Get_CRE_XML_Paths.sparql -o CRE_file_Paths.xml -f XML    
