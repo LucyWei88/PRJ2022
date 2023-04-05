@@ -50,8 +50,9 @@ My GitHub repository also has this guide separately:
     https://github.com/LucyWei88/PRJ2022/blob/main/Replication_Guide.pdf  
 
 We will not discuss how to prepare the directory here.  
-The replication guide is written for Windows operating system.  
-There might be some undetected error on other different operating systems.
+The entire implementation of this project was carried out on Windows,  
+As a result, this replication guide is written after testing on Windows on Windows.  
+Therefore, there may be some undetected errors on other operating systems. 
 Please notice, there might be a iteration failed in Command 3 and 5.  
 This error is about file name too long, shown in a test in Bash.  
 But in PowerShell on Windows, No error detected.  
